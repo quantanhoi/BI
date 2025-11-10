@@ -1,4 +1,8 @@
 # Praktikum 2: Von den operativen Daten über einen Data Vault zum Auswerte-Mart
+## Team 10
+Quang Trung Thieu 
+Luca Stehle
+Achour, Ahmed
 
 ## Aufgabe 1: Data Vault Modellierung
 

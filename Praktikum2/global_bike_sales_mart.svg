@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="228mm" xmlns="http://www.w3.org/2000/svg" height="179mm" version="1.1" viewBox="0 0 865 679" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <polyline fill="none" points="409,490 409,554 506,554 506,617" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="506,617 503,604 509,604" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="393,490 393,538 178,538" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="178,538 192,535 192,541" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="487,210 487,101" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="487,101 490,114 484,114" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="409,210 409,148 229,148" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="229,148 242,145 242,151" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="514,350 690,350" stroke="#0080c0" stroke-width="1"/>
+   <polygon fill="#0080c0" points="690,350 677,353 677,347" stroke="#0080c0" stroke-width="1" stroke-linejoin="miter"/>
+   <rect x="304" y="210" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient1" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b2d6fc"/>
+      </linearGradient>
+   </defs>
+   <rect x="304" y="210" fill="url(#Gradient1)" width="210" height="280" stroke="#0080c0" stroke-width="1"/>
+   <text x="409" y="221" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">FactSales</text>
+   <line x1="304" x2="514" y1="227" y2="227" stroke="#0080c0" stroke-width="1"/>
+   <text x="309" y="237" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">SalesKey</text>
+   <text x="309" y="250" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DateKey</text>
+   <text x="309" y="263" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CustomerKey</text>
+   <text x="309" y="276" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ProductKey</text>
+   <text x="309" y="289" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">SalesOrgKey</text>
+   <text x="309" y="301" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CountryKey</text>
+   <text x="309" y="314" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">OrderNumber</text>
+   <text x="309" y="327" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">OrderItem</text>
+   <text x="309" y="340" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">SalesQuantity</text>
+   <text x="309" y="353" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">UnitOfMeasure</text>
+   <text x="309" y="366" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Revenue</text>
+   <text x="309" y="379" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Discount</text>
+   <text x="309" y="392" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">RevenueUSD</text>
+   <text x="309" y="405" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DiscountUSD</text>
+   <text x="309" y="418" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CostsUSD</text>
+   <text x="309" y="431" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Currency</text>
+   <text x="309" y="444" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NetRevenue</text>
+   <text x="309" y="457" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NetRevenueUSD</text>
+   <text x="309" y="470" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">GrossProfit</text>
+   <text x="309" y="483" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">GrossProfitMargin</text>
+   <text x="400" y="237" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">SERIAL</text>
+   <text x="400" y="250" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="400" y="263" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="400" y="276" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="400" y="289" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="400" y="301" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="400" y="314" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="400" y="327" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="400" y="340" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="400" y="353" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(10)</text>
+   <text x="400" y="366" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC(15,2)</text>
+   <text x="400" y="379" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC(15,2)</text>
+   <text x="400" y="392" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC(15,2)</text>
+   <text x="400" y="405" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC(15,2)</text>
+   <text x="400" y="418" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC(15,2)</text>
+   <text x="400" y="431" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(10)</text>
+   <text x="400" y="444" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC(15,2)</text>
+   <text x="400" y="457" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC(15,2)</text>
+   <text x="400" y="470" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC(15,2)</text>
+   <text x="400" y="483" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC(5,2)</text>
+   <text x="482" y="237" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="482" y="250" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk1&gt;</text>
+   <text x="482" y="263" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk2&gt;</text>
+   <text x="482" y="276" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk3&gt;</text>
+   <text x="482" y="289" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk4&gt;</text>
+   <text x="482" y="301" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk5&gt;</text>
+   <rect x="479" y="2" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient2" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b2d6fc"/>
+      </linearGradient>
+   </defs>
+   <rect x="479" y="2" fill="url(#Gradient2)" width="229" height="99" stroke="#0080c0" stroke-width="1"/>
+   <text x="593" y="13" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">DimProduct</text>
+   <line x1="479" x2="708" y1="19" y2="19" stroke="#0080c0" stroke-width="1"/>
+   <text x="483" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">ProductKey</text>
+   <text x="483" y="42" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ProductID</text>
+   <text x="483" y="55" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ProductName</text>
+   <text x="483" y="68" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ProductCategoryID</text>
+   <text x="483" y="81" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ProductCategoryName</text>
+   <text x="483" y="94" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Division</text>
+   <text x="597" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="597" y="42" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(50)</text>
+   <text x="597" y="55" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="597" y="68" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(50)</text>
+   <text x="597" y="81" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(100)</text>
+   <text x="597" y="94" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(50)</text>
+   <text x="678" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="35" y="112" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient3" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b2d6fc"/>
+      </linearGradient>
+   </defs>
+   <rect x="35" y="112" fill="url(#Gradient3)" width="194" height="73" stroke="#0080c0" stroke-width="1"/>
+   <text x="132" y="123" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">DimCustomer</text>
+   <line x1="35" x2="229" y1="129" y2="129" stroke="#0080c0" stroke-width="1"/>
+   <text x="39" y="139" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">CustomerKey</text>
+   <text x="39" y="152" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CustomerID</text>
+   <text x="39" y="165" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CustomerName</text>
+   <text x="39" y="178" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">City</text>
+   <text x="119" y="139" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="119" y="152" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(50)</text>
+   <text x="119" y="165" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="119" y="178" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(100)</text>
+   <text x="200" y="139" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="2" y="515" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient4" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b2d6fc"/>
+      </linearGradient>
+   </defs>
+   <rect x="2" y="515" fill="url(#Gradient4)" width="176" height="53" stroke="#0080c0" stroke-width="1"/>
+   <text x="90" y="526" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">DimSalesOrg</text>
+   <line x1="2" x2="178" y1="532" y2="532" stroke="#0080c0" stroke-width="1"/>
+   <text x="7" y="542" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">SalesOrgKey</text>
+   <text x="7" y="555" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">SalesOrgID</text>
+   <text x="76" y="542" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="76" y="555" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(50)</text>
+   <text x="151" y="542" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="413" y="617" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient5" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b2d6fc"/>
+      </linearGradient>
+   </defs>
+   <rect x="413" y="617" fill="url(#Gradient5)" width="186" height="60" stroke="#0080c0" stroke-width="1"/>
+   <text x="506" y="628" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">DimCountry</text>
+   <line x1="413" x2="599" y1="634" y2="634" stroke="#0080c0" stroke-width="1"/>
+   <text x="418" y="644" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">CountryKey</text>
+   <text x="418" y="657" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CountryCode</text>
+   <text x="418" y="670" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CountryName</text>
+   <text x="490" y="644" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="490" y="657" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(10)</text>
+   <text x="490" y="670" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(100)</text>
+   <text x="571" y="644" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="690" y="275" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient6" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b2d6fc"/>
+      </linearGradient>
+   </defs>
+   <rect x="690" y="275" fill="url(#Gradient6)" width="173" height="150" stroke="#0080c0" stroke-width="1"/>
+   <text x="776" y="286" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">DimDate</text>
+   <line x1="690" x2="863" y1="291" y2="291" stroke="#0080c0" stroke-width="1"/>
+   <text x="695" y="301" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">DateKey</text>
+   <text x="695" y="314" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Date</text>
+   <text x="695" y="327" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Year</text>
+   <text x="695" y="340" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Month</text>
+   <text x="695" y="353" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Day</text>
+   <text x="695" y="366" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Quarter</text>
+   <text x="695" y="379" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">MonthName</text>
+   <text x="695" y="392" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DayOfWeek</text>
+   <text x="695" y="405" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DayName</text>
+   <text x="695" y="418" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">IsWeekend</text>
+   <text x="761" y="301" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="761" y="314" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="761" y="327" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="761" y="340" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="761" y="353" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="761" y="366" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="761" y="379" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(20)</text>
+   <text x="761" y="392" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="761" y="405" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(20)</text>
+   <text x="761" y="418" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">BOOLEAN</text>
+   <text x="836" y="301" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+</svg>

@@ -1,3 +1,4 @@
+-- Active: 1762767388693@@127.0.0.1@5432@postgres
 /*==============================================================*/
 /* DBMS name:      PostgreSQL 9.x                               */
 /* Created on:     10.11.2025 10:32:47                          */
@@ -6,37 +7,37 @@
 
 drop index if exists HUBCOUNTRY_PK;
 
-drop table if exists HubCountry;
+drop table if exists HubCountry cascade;
 
 drop index if exists HUBCUSTOMER_PK;
 
-drop table if exists HubCustomer;
+drop table if exists HubCustomer cascade;
 
 drop index if exists HUBDATE_PK;
 
-drop table if exists HubDate;
+drop table if exists HubDate cascade;
 
 drop index if exists HUBFACTSALES_PK;
 
-drop table if exists HubFactSales;
+drop table if exists HubFactSales cascade;
 
 drop index if exists HUBPRODUCT_PK;
 
-drop table if exists HubProduct;
+drop table if exists HubProduct cascade;
 
 drop index if exists HUBPRODUCTCATEGORY_PK;
 
-drop table if exists HubProductCategory;
+drop table if exists HubProductCategory cascade;
 
 drop index if exists HUBSALESORG_PK;
 
-drop table if exists HubSalesOrg;
+drop table if exists HubSalesOrg cascade;
 
 drop index if exists ASSOCIATION25_FK;
 
 drop index if exists ASSOCIATION23_FK;
 
-drop table if exists LinkCustomerCountry;
+drop table if exists LinkCustomerCountry cascade;
 
 drop index if exists ASSOCIATION32_FK;
 
@@ -50,61 +51,61 @@ drop index if exists ASSOCIATION20_FK;
 
 drop index if exists ASSOCIATION19_FK;
 
-drop table if exists LinkFactSales;
+drop table if exists LinkFactSales cascade;
 
 drop index if exists ASSOCIATION17_FK;
 
 drop index if exists ASSOCIATION16_FK;
 
-drop table if exists LinkProductProductCategory;
+drop table if exists LinkProductProductCategory cascade;
 
 drop index if exists ASSOCIATION28_FK;
 
 drop index if exists ASSOCIATION27_FK;
 
-drop table if exists LinkSalesOrgCountry;
+drop table if exists LinkSalesOrgCountry cascade;
 
 drop index if exists ASSOCIATION24_FK;
 
 drop index if exists SATCOUNTRY_PK;
 
-drop table if exists SatCountry;
+drop table if exists SatCountry cascade;
 
 drop index if exists ASSOCIATION22_FK;
 
 drop index if exists SATCUSTOMER_PK;
 
-drop table if exists SatCustomer;
+drop table if exists SatCustomer cascade;
 
 drop index if exists ASSOCIATION29_FK;
 
 drop index if exists SATDATE_PK;
 
-drop table if exists SatDate;
+drop table if exists SatDate cascade;
 
 drop index if exists ASSOCIATION18_FK;
 
 drop index if exists SATFACTSALES_PK;
 
-drop table if exists SatFactSales;
+drop table if exists SatFactSales cascade;
 
 drop index if exists ASSOCIATION15_FK;
 
 drop index if exists SATPRODUCT_PK;
 
-drop table if exists SatProduct;
+drop table if exists SatProduct cascade;
 
 drop index if exists ASSOCIATION14_FK;
 
 drop index if exists SATPRODUCTCATEGORY_PK;
 
-drop table if exists SatProductCategory;
+drop table if exists SatProductCategory cascade;
 
 drop index if exists ASSOCIATION26_FK;
 
 drop index if exists SATSALESORG_PK;
 
-drop table if exists SatSalesOrg;
+drop table if exists SatSalesOrg cascade;
 
 /*==============================================================*/
 /* Table: HubCountry                                            */

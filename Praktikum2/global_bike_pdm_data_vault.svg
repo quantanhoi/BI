@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="510mm" xmlns="http://www.w3.org/2000/svg" height="264mm" version="1.1" viewBox="0 0 1930 999" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <polyline fill="none" points="314,672 314,559" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="314,559 317,572 311,572" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="138,110 138,193" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="138,193 135,179 141,179" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="224,397 224,486" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="224,486 221,473 227,473" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="138,324 138,265" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="138,265 141,279 135,279" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="794,202 794,255 798,255 798,308" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="798,308 795,294 801,294" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="782,478 782,394" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="782,394 785,407 779,407" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="660,531 555,531 555,558 435,558" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="435,558 448,555 448,561" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="677,478 677,226 237,226" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="237,226 251,223 251,229" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1286,920 1286,873 1292,873 1292,826" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="1292,826 1295,839 1289,839" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1471,789 1395,789" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="1395,789 1408,786 1408,792" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1823,937 1823,885 1816,885 1816,834" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="1816,834 1819,847 1813,847" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1681,797 1717,797" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="1717,797 1704,800 1704,794" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1770,273 1770,396" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="1770,396 1767,383 1773,383" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1774,564 1774,469" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="1774,469 1777,482 1771,482" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1786,637 1786,699 1816,699 1816,761" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="1816,761 1813,748 1819,748" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1106,87 1106,234" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="1106,234 1103,221 1109,221" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="905,541 1106,541 1106,307" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="1106,307 1109,320 1103,320" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="782,603 782,789 1189,789" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="1189,789 1175,792 1175,786" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1667,429 1112,429" stroke="#0080ff" stroke-width="1"/>
+   <polyline fill="none" points="1101,429 798,429 798,478" stroke="#0080ff" stroke-width="1"/>
+   <path d="M1112,429 A5,5 0 0,0 1106,423" fill="none" stroke="#0080ff" stroke-width="1"/>
+   <line x1="1106" x2="1106" y1="423" y2="423" stroke="#0080ff" stroke-width="1"/>
+   <path d="M1106,423 A5,5 0 0,0 1101,429" fill="none" stroke="#0080ff" stroke-width="1"/>
+   <polygon fill="#0080ff" points="1667,429 1654,432 1654,426" stroke="#0080ff" stroke-width="1" stroke-linejoin="miter"/>
+   <rect x="660" y="478" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient1" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="660" y="478" fill="url(#Gradient1)" width="245" height="125" stroke="#0080ff" stroke-width="1"/>
+   <text x="782" y="489" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Link_FactSales</text>
+   <line x1="660" x2="905" y1="495" y2="495" stroke="#0080ff" stroke-width="1"/>
+   <text x="665" y="505" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Hub_Product_id</text>
+   <text x="665" y="518" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Hub_Customer_id</text>
+   <text x="665" y="531" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Hub_Date_id</text>
+   <text x="665" y="544" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">hub_FactSales_id</text>
+   <text x="665" y="557" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Hub_ProductCategory_id</text>
+   <text x="665" y="570" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Hub_SalesOrg_id</text>
+   <text x="665" y="583" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loadDate</text>
+   <text x="665" y="596" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">sourceSystem</text>
+   <text x="791" y="505" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="791" y="518" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="791" y="531" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="791" y="544" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="791" y="557" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="791" y="570" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="791" y="583" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="791" y="596" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="872" y="505" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk3&gt;</text>
+   <text x="872" y="518" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk5&gt;</text>
+   <text x="872" y="531" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk4&gt;</text>
+   <text x="872" y="544" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk1&gt;</text>
+   <text x="872" y="557" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk2&gt;</text>
+   <text x="872" y="570" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk6&gt;</text>
+   <rect x="694" y="308" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient2" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="694" y="308" fill="url(#Gradient2)" width="208" height="86" stroke="#0080ff" stroke-width="1"/>
+   <text x="798" y="319" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Hub_FactSales</text>
+   <line x1="694" x2="902" y1="325" y2="325" stroke="#0080ff" stroke-width="1"/>
+   <text x="699" y="335" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">hub_FactSales_id</text>
+   <text x="699" y="348" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loadDate</text>
+   <text x="699" y="361" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">sourceSystem</text>
+   <text x="699" y="374" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">OrderItem</text>
+   <text x="699" y="387" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">OrderNumber</text>
+   <text x="792" y="335" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="792" y="348" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="792" y="361" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="792" y="374" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="792" y="387" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="873" y="335" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="685" y="51" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient3" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="685" y="51" fill="url(#Gradient3)" width="218" height="151" stroke="#0080ff" stroke-width="1"/>
+   <text x="794" y="62" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Sat_FactSales</text>
+   <line x1="685" x2="903" y1="68" y2="68" stroke="#0080ff" stroke-width="1"/>
+   <text x="690" y="78" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">loadDate</text>
+   <text x="690" y="91" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">hub_FactSales_id</text>
+   <text x="690" y="104" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">SalesQuantity</text>
+   <text x="690" y="117" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">UnitOfMeasure</text>
+   <text x="690" y="130" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">RevenueUSD</text>
+   <text x="690" y="143" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DiscountUSD</text>
+   <text x="690" y="156" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CostsUSD</text>
+   <text x="690" y="169" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Revenue</text>
+   <text x="690" y="182" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Discount</text>
+   <text x="690" y="195" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Currency</text>
+   <text x="783" y="78" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">DATE</text>
+   <text x="783" y="91" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="783" y="104" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="783" y="117" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="783" y="130" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC</text>
+   <text x="783" y="143" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC</text>
+   <text x="783" y="156" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC</text>
+   <text x="783" y="169" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC</text>
+   <text x="783" y="182" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC</text>
+   <text x="783" y="195" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="864" y="78" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="864" y="91" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk,fk&gt;</text>
+   <rect x="1189" y="753" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient4" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1189" y="753" fill="url(#Gradient4)" width="206" height="73" stroke="#0080ff" stroke-width="1"/>
+   <text x="1292" y="764" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Hub_Customer</text>
+   <line x1="1189" x2="1395" y1="770" y2="770" stroke="#0080ff" stroke-width="1"/>
+   <text x="1193" y="780" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_Customer_id</text>
+   <text x="1193" y="793" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loadDate</text>
+   <text x="1193" y="806" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">sourceSystem</text>
+   <text x="1193" y="819" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CustomerID</text>
+   <text x="1285" y="780" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="1285" y="793" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="1285" y="806" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1285" y="819" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1366" y="780" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="1178" y="920" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient5" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1178" y="920" fill="url(#Gradient5)" width="217" height="73" stroke="#0080ff" stroke-width="1"/>
+   <text x="1286" y="931" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Sat_Customer</text>
+   <line x1="1178" x2="1395" y1="937" y2="937" stroke="#0080ff" stroke-width="1"/>
+   <text x="1183" y="947" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">loadDate</text>
+   <text x="1183" y="960" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_Customer_id</text>
+   <text x="1183" y="973" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CustDescr</text>
+   <text x="1183" y="986" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">City</text>
+   <text x="1275" y="947" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">DATE</text>
+   <text x="1275" y="960" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="1275" y="973" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1275" y="986" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1356" y="947" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="1356" y="960" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk,fk&gt;</text>
+   <rect x="1717" y="761" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient6" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1717" y="761" fill="url(#Gradient6)" width="198" height="73" stroke="#0080ff" stroke-width="1"/>
+   <text x="1816" y="772" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Hub_Country</text>
+   <line x1="1717" x2="1915" y1="778" y2="778" stroke="#0080ff" stroke-width="1"/>
+   <text x="1722" y="788" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_Country_id</text>
+   <text x="1722" y="801" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loadDate</text>
+   <text x="1722" y="814" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">sourceSystem</text>
+   <text x="1722" y="827" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CountryCode</text>
+   <text x="1806" y="788" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="1806" y="801" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="1806" y="814" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1806" y="827" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1887" y="788" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="1719" y="937" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient7" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1719" y="937" fill="url(#Gradient7)" width="209" height="60" stroke="#0080ff" stroke-width="1"/>
+   <text x="1823" y="948" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Sat_Country</text>
+   <line x1="1719" x2="1928" y1="954" y2="954" stroke="#0080ff" stroke-width="1"/>
+   <text x="1724" y="964" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">loadDate</text>
+   <text x="1724" y="977" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_Country_id</text>
+   <text x="1724" y="990" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CountryName</text>
+   <text x="1808" y="964" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">DATE</text>
+   <text x="1808" y="977" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="1808" y="990" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1889" y="964" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="1889" y="977" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk,fk&gt;</text>
+   <rect x="1014" y="234" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient8" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1014" y="234" fill="url(#Gradient8)" width="185" height="73" stroke="#0080ff" stroke-width="1"/>
+   <text x="1106" y="245" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Hub_Date</text>
+   <line x1="1014" x2="1199" y1="251" y2="251" stroke="#0080ff" stroke-width="1"/>
+   <text x="1018" y="261" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_Date_id</text>
+   <text x="1018" y="274" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loadDate</text>
+   <text x="1018" y="287" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">sourceSystem</text>
+   <text x="1018" y="300" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Date</text>
+   <text x="1090" y="261" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="1090" y="274" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="1090" y="287" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1090" y="300" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="1171" y="261" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="1057" y="2" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient9" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1057" y="2" fill="url(#Gradient9)" width="138" height="85" stroke="#0080ff" stroke-width="1"/>
+   <text x="1126" y="13" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Sat_Date</text>
+   <line x1="1057" x2="1195" y1="19" y2="19" stroke="#0080ff" stroke-width="1"/>
+   <text x="1062" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">loadDate</text>
+   <text x="1062" y="41" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_Date_id</text>
+   <text x="1062" y="54" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Year</text>
+   <text x="1062" y="67" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Month</text>
+   <text x="1062" y="80" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Day</text>
+   <text x="1132" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">DATE</text>
+   <text x="1132" y="41" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="1132" y="54" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="1132" y="67" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="1132" y="80" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="1168" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="1168" y="41" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk,f</text>
+   <rect x="39" y="193" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient10" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="39" y="193" fill="url(#Gradient10)" width="198" height="72" stroke="#0080ff" stroke-width="1"/>
+   <text x="138" y="204" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Hub_Product</text>
+   <line x1="39" x2="237" y1="210" y2="210" stroke="#0080ff" stroke-width="1"/>
+   <text x="44" y="220" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_Product_id</text>
+   <text x="44" y="233" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loadDate</text>
+   <text x="44" y="246" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">sourceSystem</text>
+   <text x="44" y="258" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ProductID</text>
+   <text x="128" y="220" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="128" y="233" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="128" y="246" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="128" y="258" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="209" y="220" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="194" y="486" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient11" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="194" y="486" fill="url(#Gradient11)" width="241" height="73" stroke="#0080ff" stroke-width="1"/>
+   <text x="314" y="497" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Hub_ProductCategory</text>
+   <line x1="194" x2="435" y1="503" y2="503" stroke="#0080ff" stroke-width="1"/>
+   <text x="198" y="513" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_ProductCategory_id</text>
+   <text x="198" y="526" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loadDate</text>
+   <text x="198" y="539" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">sourceSystem</text>
+   <text x="198" y="552" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ProductCatID</text>
+   <text x="324" y="513" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="324" y="526" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="324" y="539" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="324" y="552" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="405" y="513" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="2" y="37" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient12" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="2" y="37" fill="url(#Gradient12)" width="208" height="73" stroke="#0080ff" stroke-width="1"/>
+   <text x="106" y="48" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Sat_Product</text>
+   <line x1="2" x2="210" y1="54" y2="54" stroke="#0080ff" stroke-width="1"/>
+   <text x="7" y="64" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">loadDate</text>
+   <text x="7" y="77" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_Product_id</text>
+   <text x="7" y="90" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ProdDescr</text>
+   <text x="7" y="103" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DivisionCode</text>
+   <text x="91" y="64" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">DATE</text>
+   <text x="91" y="77" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="91" y="90" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="91" y="103" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="172" y="64" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="172" y="77" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk,fk&gt;</text>
+   <rect x="186" y="672" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient13" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="186" y="672" fill="url(#Gradient13)" width="251" height="60" stroke="#0080ff" stroke-width="1"/>
+   <text x="311" y="683" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Sat_ProductCategory</text>
+   <line x1="186" x2="437" y1="689" y2="689" stroke="#0080ff" stroke-width="1"/>
+   <text x="190" y="699" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">CatDescr</text>
+   <text x="190" y="712" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">loadDate</text>
+   <text x="190" y="725" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_ProductCategory_id</text>
+   <text x="316" y="699" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="316" y="712" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">DATE</text>
+   <text x="316" y="725" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="397" y="712" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="397" y="725" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk,fk&gt;</text>
+   <rect x="1667" y="396" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient14" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1667" y="396" fill="url(#Gradient14)" width="205" height="73" stroke="#0080ff" stroke-width="1"/>
+   <text x="1769" y="407" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Hub_SalesOrg</text>
+   <line x1="1667" x2="1872" y1="413" y2="413" stroke="#0080ff" stroke-width="1"/>
+   <text x="1672" y="423" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_SalesOrg_id</text>
+   <text x="1672" y="436" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loadDate</text>
+   <text x="1672" y="449" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">sourceSystem</text>
+   <text x="1672" y="462" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">SalesOrg</text>
+   <text x="1763" y="423" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="1763" y="436" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="1763" y="449" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1763" y="462" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1844" y="423" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="1683" y="220" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient15" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1683" y="220" fill="url(#Gradient15)" width="169" height="53" stroke="#0080ff" stroke-width="1"/>
+   <text x="1767" y="231" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Sat_SalesOrg</text>
+   <line x1="1683" x2="1852" y1="237" y2="237" stroke="#0080ff" stroke-width="1"/>
+   <text x="1687" y="247" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">loadDate</text>
+   <text x="1687" y="260" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">Hub_SalesOrg_id</text>
+   <text x="1778" y="247" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">DATE</text>
+   <text x="1778" y="260" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">INT4</text>
+   <text x="1814" y="247" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="1814" y="260" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk,fk&gt;</text>
+   <rect x="1471" y="755" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient16" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1471" y="755" fill="url(#Gradient16)" width="210" height="73" stroke="#0080ff" stroke-width="1"/>
+   <text x="1576" y="766" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Link_Customer_Country</text>
+   <line x1="1471" x2="1681" y1="772" y2="772" stroke="#0080ff" stroke-width="1"/>
+   <text x="1476" y="782" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Hub_Country_id</text>
+   <text x="1476" y="795" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Hub_Customer_id</text>
+   <text x="1476" y="808" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loadDate</text>
+   <text x="1476" y="821" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">sourceSystem</text>
+   <text x="1568" y="782" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="1568" y="795" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="1568" y="808" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="1568" y="821" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1649" y="782" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk2&gt;</text>
+   <text x="1649" y="795" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk1&gt;</text>
+   <rect x="1673" y="564" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient17" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1673" y="564" fill="url(#Gradient17)" width="209" height="73" stroke="#0080ff" stroke-width="1"/>
+   <text x="1777" y="575" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Link_SalesOrg_Country</text>
+   <line x1="1673" x2="1882" y1="581" y2="581" stroke="#0080ff" stroke-width="1"/>
+   <text x="1678" y="591" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Hub_Country_id</text>
+   <text x="1678" y="604" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Hub_SalesOrg_id</text>
+   <text x="1678" y="617" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loadDate</text>
+   <text x="1678" y="630" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">sourceSystem</text>
+   <text x="1769" y="591" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="1769" y="604" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="1769" y="617" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="1769" y="630" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="1850" y="591" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk2&gt;</text>
+   <text x="1850" y="604" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk1&gt;</text>
+   <rect x="23" y="324" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient18" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#aee4ff"/>
+      </linearGradient>
+   </defs>
+   <rect x="23" y="324" fill="url(#Gradient18)" width="245" height="73" stroke="#0080ff" stroke-width="1"/>
+   <text x="145" y="335" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">Link_Product_ProductCategory</text>
+   <line x1="23" x2="268" y1="341" y2="341" stroke="#0080ff" stroke-width="1"/>
+   <text x="28" y="351" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Hub_Product_id</text>
+   <text x="28" y="364" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">Hub_ProductCategory_id</text>
+   <text x="28" y="377" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loadDate</text>
+   <text x="28" y="390" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">sourceSystem</text>
+   <text x="154" y="351" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="154" y="364" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">INT4</text>
+   <text x="154" y="377" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="154" y="390" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(254)</text>
+   <text x="235" y="351" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk2&gt;</text>
+   <text x="235" y="364" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk1&gt;</text>
+</svg>

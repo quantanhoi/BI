@@ -1,0 +1,23 @@
+FEHLERBERICHT - Global Bike Sales Data ETL
+================================================================================
+
+Anzahl fehlerhafter Datensätze: 3
+
+
+Zeile 20:
+----------------------------------------
+  • Zeile 20: Währung '€' automatisch zu 'EUR' korrigiert
+  Daten: {'OrderNumber': '100005', 'OrderItem': '20', 'Date': '04.01.07', 'Customer': '17000', 'CustDescr': 'Cruiser Bikes', 'City': 'Hannover', 'SalesOrg': 'DN00', 'Country': 'DE', 'Product': 'OHMT1000', 'ProdDescr': 'Off Road Helmet', 'ProdCat': 'ACC', 'CatDescr': 'Accessoire', 'Division': 'AS', 'SalesQuantity': '4', 'UnitOfMeasure': 'ST', 'Revenue': '166,7', 'Currency': 'EUR', 'Discount': '5', 'RevenueUSD': '218,28', 'DiscountUSD': '6,55', 'CostsUSD': '100', '_row_num': 20, 'parsed_date': datetime.datetime(2007, 1, 4, 0, 0), 'parsed_Customer': 17000, 'parsed_OrderNumber': 100005, 'parsed_SalesQuantity': 4, 'parsed_Revenue': Decimal('166.7'), 'parsed_Discount': Decimal('5'), 'parsed_RevenueUSD': Decimal('218.28'), 'parsed_DiscountUSD': Decimal('6.55'), 'parsed_CostsUSD': Decimal('100')}
+
+
+Zeile 51122:
+----------------------------------------
+  • Zeile 51122: Ländercode 'GER' automatisch zu 'DE' korrigiert
+  Daten: {'OrderNumber': '110827', 'OrderItem': '10', 'Date': '25.07.14', 'Customer': '14000', 'CustDescr': 'Alster Cycling', 'City': 'Hamburg', 'SalesOrg': 'DN00', 'Country': 'DE', 'Product': 'PRRD1000', 'ProdDescr': 'Road Bike Carbon Shimano', 'ProdCat': 'ROB', 'CatDescr': 'Roadbike', 'Division': 'BI', 'SalesQuantity': '7', 'UnitOfMeasure': 'ST', 'Revenue': '25414,76', 'Currency': 'EUR', 'Discount': '762,44', 'RevenueUSD': '34132,1', 'DiscountUSD': '1023,96', 'CostsUSD': '17857,21', '_row_num': 51122, 'parsed_date': datetime.datetime(2014, 7, 25, 0, 0), 'parsed_Customer': 14000, 'parsed_OrderNumber': 110827, 'parsed_SalesQuantity': 7, 'parsed_Revenue': Decimal('25414.76'), 'parsed_Discount': Decimal('762.44'), 'parsed_RevenueUSD': Decimal('34132.1'), 'parsed_DiscountUSD': Decimal('1023.96'), 'parsed_CostsUSD': Decimal('17857.21')}
+
+
+Zeile 66705:
+----------------------------------------
+  • Zeile 66705: Ländercode 'USA' automatisch zu 'US' korrigiert
+  Daten: {'OrderNumber': '200098', 'OrderItem': '50', 'Date': '23.02.07', 'Customer': '5000', 'CustDescr': 'Beantown Bikes', 'City': 'Boston', 'SalesOrg': 'UE00', 'Country': 'US', 'Product': 'PRTR2000', 'ProdDescr': 'Professional Touring Bike-Silver', 'ProdCat': 'TOU', 'CatDescr': 'Touring Bike', 'Division': 'BI', 'SalesQuantity': '4', 'UnitOfMeasure': 'ST', 'Revenue': '12800', 'Currency': 'USD', 'Discount': '640', 'RevenueUSD': '12800', 'DiscountUSD': '640', 'CostsUSD': '8320', '_row_num': 66705, 'parsed_date': datetime.datetime(2007, 2, 23, 0, 0), 'parsed_Customer': 5000, 'parsed_OrderNumber': 200098, 'parsed_SalesQuantity': 4, 'parsed_Revenue': Decimal('12800'), 'parsed_Discount': Decimal('640'), 'parsed_RevenueUSD': Decimal('12800'), 'parsed_DiscountUSD': Decimal('640'), 'parsed_CostsUSD': Decimal('8320')}
+

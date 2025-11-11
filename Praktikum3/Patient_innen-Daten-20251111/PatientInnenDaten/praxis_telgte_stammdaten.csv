@@ -1,0 +1,1540 @@
+id;nachname;vorname;geburtsdatum;versicherung;geschlecht
+1;Eyou;Dirk;14.09.1933;Gesetzlich;m
+2;Branski;Mai;18.09.1938;Gesetzlich;w
+3;Mahler;Darya;18.11.1940;Gesetzlich;w
+4;Ben Abda;Juliana;29.09.1944;Gesetzlich;w
+5;Häkli;Madeline;02.02.1943;Gesetzlich;w
+6;Zeller;Esther;14.05.1943;Gesetzlich;w
+7;Wombacher;Etienne Rostan;20.04.1938;Gesetzlich;m
+8;Boudani;Joe;15.04.1941;Gesetzlich;m
+9;Pawski;Thi Thuy Quynh;26.08.1941;Privat;w
+10;Freise;Bianca;12.12.1941;Gesetzlich;w
+11;Peter;Kimberly Justine;22.01.1940;Privat;w
+12;Bielicki;Mohammad;13.02.1942;Privat;m
+13;Eichhorn;Arold Noelle;25.08.1942;Gesetzlich;w
+14;Hofmann;Ahlam;17.09.1947;Gesetzlich;w
+15;Steinkrüger;Juliusz;27.06.1949;Privat;m
+16;Alima Noah;Laurinda;13.04.1945;Gesetzlich;w
+17;Strunden;Pani;01.07.1945;Privat;w
+18;Marsch;Oresti;17.02.1941;Sonstige;m
+19;Kustepe;Mark;19.05.1940;Privat;m
+20;Rüter;Jasmin;25.06.1941;Gesetzlich;w
+21;Rudolph;Jennifer;14.02.1945;Privat;w
+22;Bici;Paulina;23.02.1944;Gesetzlich;w
+23;Ben Zayed;Anastasia;14.06.1945;Privat;w
+24;Widany;Felix;22.06.1943;Gesetzlich;m
+25;Schmitt;Senayit;24.09.1947;Gesetzlich;w
+26;Kositza;Shari Zoé;07.10.1944;Gesetzlich;w
+27;Baschnagel;Aylin;12.04.1942;Privat;w
+28;Maksuti;Marlene Johanna;19.04.1942;Privat;w
+29;Cho;Jasmin;07.06.1941;Privat;w
+30;Tagliente;Nadim;01.06.1940;Gesetzlich;m
+31;Kombeitz;Senayit;09.01.1941;Gesetzlich;w
+32;Blänsdorf;Sarah;07.12.1941;Gesetzlich;w
+33;Baris;Bruno Carl Tillmann;27.08.1942;Privat;m
+34;Rohwedder;Katrin Sarah;05.12.1946;Gesetzlich;w
+35;Musinkov;Christin;23.09.1942;Gesetzlich;w
+36;Jordan;Dilan Deniz;23.06.1943;Gesetzlich;w
+37;Busch;Vy;21.03.1946;Gesetzlich;w
+38;Kausch;Pauline;11.07.1941;Gesetzlich;w
+39;Özgül;Huiyi;24.02.1940;Privat;w
+40;Hinke;Steven Yaputra;21.02.1941;Privat;m
+41;Butt;Lazaros;09.02.1944;Gesetzlich;m
+42;Cho;Sabrina;07.06.1945;Gesetzlich;w
+43;Pham;Roshanak;06.03.1941;Sonstige;w
+44;Gülmüs;Carolin;13.01.1936;Privat;w
+45;Parisek;Sara;01.03.1936;Privat;w
+46;Adane Kassa;Thanh Hang;02.10.1936;Gesetzlich;w
+47;Balali;Fabienne;24.05.1939;Gesetzlich;w
+48;Blanquett;Jaqueline;23.06.1944;Privat;w
+49;Ntsinda Nde;Lea;18.10.1939;Privat;w
+50;Linthicum;Nikolina;26.03.1943;Gesetzlich;w
+51;Bergmann;Lejla;08.10.1943;Gesetzlich;w
+52;Kromer;Vincent;02.07.1940;Gesetzlich;m
+53;Bender;Büsra;02.11.1936;Gesetzlich;w
+54;Furmanowsky;Esra;19.08.1937;Gesetzlich;w
+55;Knedlik;Emilia;12.06.1934;Gesetzlich;w
+56;Langenberg;Tobias;02.12.1930;Gesetzlich;m
+57;Saibel;Kathrin;18.05.1931;Gesetzlich;w
+58;Pham;Jennifer;07.04.1933;Gesetzlich;w
+59;Fanta;Ragibe Hatice;25.10.1933;Privat;w
+60;Ofeimu;Liudmila;06.03.1934;Privat;w
+61;Hess;Lucas;11.01.1936;Gesetzlich;m
+62;Speckels;Louis Christophe;24.05.1936;Sonstige;m
+63;Probol;Hüsniye;28.04.1941;Gesetzlich;w
+64;Ernst;Max Pascal;01.08.1941;Privat;m
+65;Puljasic;Fiona;29.09.1941;Privat;w
+66;Schameitat;Vishal;10.11.1937;Gesetzlich;m
+67;Trinh;Ksenia;12.03.1932;Privat;w
+68;Zeller;Maike;17.12.1932;Privat;w
+69;Lafferton;Lucas;15.03.1933;Sonstige;m
+70;Tausch;Matthias;24.05.1935;Gesetzlich;m
+71;Lindemann;Bianca;05.04.1936;Gesetzlich;w
+72;Stephan;Viktor;29.11.1936;Gesetzlich;m
+73;Böhmer;Minh Thanh;20.02.1937;Gesetzlich;m
+74;Nguyen;Johannes;07.07.1933;Privat;m
+75;Rühle;Lars;23.03.1934;Gesetzlich;m
+76;Ribeiro Loureiro;Hansa;29.04.1931;Gesetzlich;w
+77;Hansmann;Yosr;01.09.1929;Privat;w
+78;Schaudt;Diana;16.01.1932;Gesetzlich;w
+79;Trautmann;Tristan;03.03.1928;Privat;m
+80;Meier;Bowen;30.06.1928;Gesetzlich;m
+81;Schmeing;Sonali;13.07.1930;Gesetzlich;w
+82;Nana Meyo;Julia;29.07.1928;Privat;w
+83;Juniar;Silvia;05.01.1933;Privat;w
+84;Wiedmann;Jan Niklas;20.08.1937;Privat;m
+85;Doll;Laurice Carmen;26.06.1938;Privat;w
+86;Hinrichs;Seline Diana Akoth;03.09.1938;Gesetzlich;w
+87;Räuber;Jeannine;11.03.1939;Gesetzlich;w
+88;Kamm;Obuibe Aristide Kossi;06.04.1951;Gesetzlich;m
+89;Gjerde;Jan;07.04.1946;Privat;m
+90;Sediqi;Valerian;06.01.1951;Gesetzlich;m
+91;Tchomnou Chengo;Gözde;27.11.1955;Gesetzlich;w
+92;Osterod;Daryl Dylan;13.08.1957;Gesetzlich;m
+93;Mink;Anastasiia;11.11.1958;Gesetzlich;w
+94;Dzibric;Fatou;18.11.1957;Gesetzlich;w
+95;Chenani Salhi;Andre;24.02.1955;Gesetzlich;m
+96;Schuchhardt;Leon Noel;23.12.1954;Gesetzlich;m
+97;Karimpur;Michael;27.04.1949;Gesetzlich;m
+98;Mauß;Sherly;18.12.1949;Privat;w
+99;Nitzl;Carla;20.03.1953;Privat;w
+100;Fischer;Medina Abdoulkader;18.07.1956;Sonstige;w
+101;Mallm;Ramanjot;13.07.1959;Sonstige;w
+102;Tanhansen;Loredana-Lavinia;18.02.1958;Gesetzlich;w
+103;Musinkov;Ann-Kathrin;02.01.1956;Gesetzlich;w
+104;Souard;Esra;23.09.1956;Gesetzlich;w
+105;Farzad;Lukas;15.07.1953;Privat;m
+106;Keuper;Marie;21.10.1957;Gesetzlich;w
+107;Wittchen;Sabine;25.12.1953;Gesetzlich;w
+108;Armbruster;Aileen Bo;06.12.1948;Privat;w
+109;König;Konrad;16.11.1946;Gesetzlich;m
+110;Berlieb;Ülfet;27.01.1950;Privat;w
+111;Vankann;Robin;14.07.1945;Gesetzlich;m
+112;Quach;Jennifer;25.05.1947;Sonstige;w
+113;Klepp;Cedric Maximilian;28.04.1948;Privat;m
+114;Riemenschneider;Pascalis;13.03.1945;Gesetzlich;m
+115;Chen;Mustafa;07.10.1945;Gesetzlich;m
+116;Zorawowicz;Sascha;16.09.1944;Gesetzlich;m
+117;Hofmann;Matthias Christopher;24.09.1945;Gesetzlich;m
+118;Ali;Marilena;29.01.1946;Gesetzlich;w
+119;Studanski;Oko;23.09.1946;Gesetzlich;m
+120;Klink;Satyameva Jayati;01.01.1942;Privat;w
+121;Mamen;Emma;01.12.1944;Gesetzlich;w
+122;Ruhleder;Hanna;20.10.1945;Gesetzlich;w
+123;Schumann;Arghavan;05.01.1948;Gesetzlich;w
+124;Cao;Marie;29.03.1947;Privat;w
+125;Djuhic;Jan;23.08.1949;Gesetzlich;m
+126;Ben Abdelkader;Aleyna;12.05.1950;Privat;w
+127;Rabbad;Ameen Abdulhakim Abdo;16.04.1952;Gesetzlich;m
+128;Lutz;Vasudha Alok;30.01.1947;Gesetzlich;w
+129;Menke;Lara;02.03.1951;Privat;w
+130;Eisbach;Amine;13.12.1951;Gesetzlich;m
+131;Tokarski;Joriel Edmond;01.07.1953;Gesetzlich;m
+132;Dang;Amel;12.08.1958;Sonstige;m
+133;Pham;Timon;16.05.1957;Gesetzlich;m
+134;Essig;Caroline;01.09.1959;Gesetzlich;w
+135;Spagl;Maissa;21.05.1960;Gesetzlich;w
+136;Suwarna;Aurelia Luise Lamina Apollonia;16.09.1956;Privat;w
+137;Werner;Jasmin;31.05.1951;Gesetzlich;w
+138;Ulmann;Michael;30.10.1947;Privat;m
+139;Wittemann;Jennifer;04.02.1951;Sonstige;w
+140;Leimgruber;Tufan;15.06.1952;Gesetzlich;m
+141;Kaufmann;Ngan;24.05.1947;Gesetzlich;w
+142;Axt;Lisa;18.12.1950;Privat;w
+143;Huy;Benjamin;12.06.1955;Privat;m
+144;Stöhr;Willy;01.05.1957;Gesetzlich;m
+145;Beck;Julian Andreas;29.05.1953;Privat;m
+146;Martinez Lopez;Cedric;25.07.1954;Sonstige;m
+147;Schumann;Areum;20.09.1949;Gesetzlich;w
+148;Ugur;Esther;27.02.1953;Privat;w
+149;Pazmino Urquizo;Moritz;17.06.1955;Sonstige;m
+150;Lin;Jan;11.09.1955;Gesetzlich;m
+151;Pogelsek;Nadine;05.10.1951;Gesetzlich;w
+152;Fender;Philipp;07.07.1952;Gesetzlich;m
+153;Vaz;Mohd Reza;06.05.1953;Gesetzlich;m
+154;Ruff;Kathrin;02.06.1950;Gesetzlich;w
+155;Schlindwein;Daniel;27.08.1948;Gesetzlich;m
+156;Danneil;Timo;24.10.1952;Privat;m
+157;Müller;Julia;29.07.1955;Gesetzlich;w
+158;Hofmann;Samaa;05.04.1953;Gesetzlich;w
+159;Anabtawi;Philipp;01.05.1953;Gesetzlich;m
+160;Kelagere Ramakrishna;Diana;19.10.1946;Gesetzlich;w
+161;Ermeck;Manuel;25.02.1959;Gesetzlich;m
+162;Frankenberger;Martin;24.09.1956;Gesetzlich;m
+163;van der Beets;Lando;26.08.1960;Gesetzlich;m
+164;Hupfer;Simon;01.03.1957;Gesetzlich;m
+165;Braun-Lenze;Lena;11.02.1952;Gesetzlich;w
+166;Rüter;Joleene;25.07.1954;Gesetzlich;w
+167;Bucklemund;Laurice Carmen;21.06.1952;Privat;w
+168;Stephan;Sara;13.04.1954;Gesetzlich;w
+169;Vocke;Leana;22.08.1956;Gesetzlich;w
+170;Staller;Jannis;09.02.1951;Privat;m
+171;Nassauer;Diandra;24.05.1954;Privat;w
+172;Suhr;Jennifer;12.07.1956;Gesetzlich;w
+173;Mohamed;Jonatan;14.08.1958;Gesetzlich;m
+174;Srock;Tom;25.09.1959;Gesetzlich;m
+175;Günther;Tobias;18.09.1964;Gesetzlich;m
+176;Hitzinger;Jan-Malte;06.04.1965;Sonstige;m
+177;Do;Tobias;26.08.1961;Privat;m
+178;Campinar;Robin;30.12.1962;Privat;m
+179;Tchomnou Chengo;Isabella;18.11.1963;Gesetzlich;w
+180;Weiß;Thorben;17.05.1960;Privat;m
+181;Dinger;Tim;24.12.1958;Gesetzlich;m
+182;Hanikel;Hanka;07.03.1959;Privat;w
+183;Reichert;Yul;19.02.1953;Gesetzlich;m
+184;Singh;Benjamin;03.08.1949;Privat;m
+185;Porada;Susanna;19.12.1953;Gesetzlich;w
+186;Hajosman;Nayra;31.08.1952;Gesetzlich;w
+187;Friske;David;29.01.1956;Gesetzlich;m
+188;Dünnwald;Paul;02.06.1954;Gesetzlich;m
+189;Ohlendorf;Eve Angeline;24.07.1952;Gesetzlich;w
+190;Meuser;Jan;13.01.1955;Gesetzlich;m
+191;Klingor;Blanka;06.06.1955;Gesetzlich;w
+192;Milinkovic;Betina;16.10.1953;Gesetzlich;w
+193;Bahl;Susanna;02.10.1952;Gesetzlich;w
+194;Haas;Joel;06.12.1952;Privat;m
+195;Schmidt;Max;16.12.1953;Gesetzlich;m
+196;Lushcheko;Saeideh;15.02.1949;Gesetzlich;w
+197;Reisser;ESE;19.12.1945;Privat;m
+198;Kraus;Mathis;01.12.1942;Privat;m
+199;Herrmann;Isabelle;07.01.1945;Gesetzlich;w
+200;Kupka;Feline;30.10.1945;Privat;w
+201;Boutter;Marcel;10.08.1942;Gesetzlich;m
+202;Prosser;Matias Sebastian;08.09.1938;Gesetzlich;m
+203;Kirsche;Shawkat;09.11.1938;Privat;m
+204;Liu;Christina;28.12.1941;Privat;w
+205;Tinz;Samuel;21.02.1942;Privat;m
+206;Wittemann;Pani;16.05.1945;Privat;w
+207;Schmitt;Helene;28.01.1946;Gesetzlich;w
+208;Ohanes;Jacqueline;13.11.1946;Gesetzlich;w
+209;Hasse;Alexander Marcus;08.03.1950;Gesetzlich;m
+210;Sautier;Marieke;07.09.1950;Gesetzlich;w
+211;Truong;Bao Anh;19.09.1947;Gesetzlich;m
+212;Kreuzer;Paul;19.10.1948;Privat;m
+213;Xue;Meliha Derya;19.08.1953;Gesetzlich;w
+214;Wölfelschneider;Clara Bettina;13.01.1951;Gesetzlich;w
+215;Aslantas;Ahmed Mohamed;28.11.1951;Gesetzlich;m
+216;Wiesner;Joanna-Laura;23.08.1952;Gesetzlich;w
+217;Lakos;Fadli Nathan;03.04.1956;Gesetzlich;m
+218;Clement;Kathrin;01.12.1955;Privat;w
+219;Szwerkolt;Waqas;07.09.1954;Gesetzlich;m
+220;Winterberg;Nils;16.02.1955;Privat;m
+221;Binder;Joy;04.08.1955;Gesetzlich;m
+222;Peter;Markus;12.01.1960;Gesetzlich;m
+223;Daebler;Anna-Isabell;20.10.1956;Gesetzlich;w
+224;Römer;Manprit;30.05.1954;Privat;w
+225;Heep;Lennart;25.11.1956;Gesetzlich;m
+226;Rasaili;Lisa;05.11.1951;Privat;w
+227;Roth;Jenja;10.11.1951;Gesetzlich;m
+228;Füssel;Lea;14.05.1947;Sonstige;w
+229;Pastuchov;Clara;06.01.1945;Gesetzlich;w
+230;Aleid;Roberts;09.07.1950;Sonstige;m
+231;van den Boogert;Nathalie Ann;13.09.1945;Gesetzlich;w
+232;Stephan;Justin;14.05.1942;Gesetzlich;m
+233;Scheib;Gunda;28.11.1943;Gesetzlich;w
+234;Fahrner;Markus;14.10.1945;Gesetzlich;m
+235;Ulrichs;Marco;05.01.1946;Gesetzlich;m
+236;Müller;Paula;24.11.1943;Sonstige;w
+237;Boudani;Isabell;28.09.1941;Gesetzlich;w
+238;Williams;Theresa;01.12.1942;Gesetzlich;w
+239;Felger;Kevin;29.08.1944;Gesetzlich;m
+240;Fernandez Mantilla;Ben Jonas;25.05.1946;Gesetzlich;m
+241;Kieferle;Amelie;24.10.1948;Gesetzlich;w
+242;Zahraoui;Benjamin;19.08.1950;Gesetzlich;m
+243;Kehr;Ibrahim;20.04.1953;Gesetzlich;m
+244;Kanu;Sonja;29.10.1956;Gesetzlich;w
+245;Salim;Lucas;26.02.1951;Gesetzlich;m
+246;Merz;Paul;19.01.1948;Gesetzlich;m
+247;Nandha;Muhamad;29.03.1952;Gesetzlich;m
+248;Hammes;Fabio;14.03.1953;Gesetzlich;m
+249;Avadani;Ivana;13.03.1954;Gesetzlich;w
+250;Sajeev;Quynh;13.09.1948;Gesetzlich;m
+251;Herweh;Anne-Sophie;26.05.1949;Gesetzlich;w
+252;Werth;Tabea Lale;12.03.1954;Gesetzlich;w
+253;Shaat;Sirin;25.06.1955;Gesetzlich;w
+254;Pfemfert;Eric Xavier;15.04.1951;Privat;m
+255;Babych;Helena;31.03.1952;Privat;w
+256;Manhique;Greta;14.12.1956;Gesetzlich;w
+257;Tajzada;Teresa;02.12.1953;Privat;w
+258;Konrad;Matthias;26.10.1954;Privat;m
+259;Pikisch;Daniel;13.01.1950;Gesetzlich;m
+260;Glockner;Skadi;17.07.1955;Sonstige;w
+261;Albrecht;Gianfranco;02.11.1956;Sonstige;m
+262;Ben Zayed;Sophia;26.08.1957;Gesetzlich;w
+263;Gunkel;Eren;05.10.1952;Gesetzlich;m
+264;Tran;Henrik;28.03.1953;Privat;m
+265;Anabtawi;Lara;15.05.1958;Gesetzlich;w
+266;Wijeyasekara;Leonie;13.05.1962;Privat;w
+267;Pohl;Anastasiia;24.05.1957;Gesetzlich;w
+268;Lekoubou Tiwo;Tim;06.11.1961;Privat;m
+269;Dehler;Saskia;19.08.1962;Gesetzlich;w
+270;Ali;Halis Batuhan;01.05.1959;Gesetzlich;m
+271;Kirchman;Eliah;19.11.1955;Gesetzlich;m
+272;van der Zee;Tom;08.12.1953;Gesetzlich;m
+273;Hartono;Kirsten Anke;04.01.1949;Gesetzlich;w
+274;Schäfer;Maximilian Dominik;15.02.1949;Privat;m
+275;Erdem;Indranil;05.05.1949;Gesetzlich;w
+276;Lazar;Jannika Angela;05.06.1952;Privat;w
+277;Wagner;Seline Diana Akoth;19.03.1953;Gesetzlich;w
+278;Schmitt;Selim;12.09.1951;Gesetzlich;m
+279;Geisler;Christian;03.12.1950;Privat;m
+280;Parvaiz;Nora;13.09.1953;Privat;w
+281;Hakki Tunca;Afeni;13.04.1954;Privat;w
+282;Pfezer;Ann-Kathrin;10.05.1951;Gesetzlich;w
+283;Freyer;Alexander;19.09.1947;Gesetzlich;m
+284;Hauf;Stephanie;26.07.1948;Gesetzlich;w
+285;Niccum;Mohamed;19.06.1949;Gesetzlich;m
+286;Herbertz;Sevde Nur;15.09.1952;Gesetzlich;w
+287;Hajjy;Betül Derya Leyla;26.12.1953;Gesetzlich;w
+288;Ahmed Jegune;Lea;26.04.1954;Privat;w
+289;Llaban;Svenja Sophia;27.05.1954;Gesetzlich;w
+290;Tulaj;Florian;03.05.1951;Gesetzlich;m
+291;Georg;Jannika Angela;21.02.1952;Gesetzlich;w
+292;Cuglewski;Ogris Yan;08.10.1952;Gesetzlich;m
+293;Müller;Nico;21.06.1953;Gesetzlich;m
+294;Thielen;Lara Katharina;16.05.1948;Sonstige;w
+295;Pototzki;Tobias;12.10.1953;Privat;m
+296;Göttler;Julia;28.05.1951;Privat;w
+297;Reichert;Miguel;19.04.1952;Privat;m
+298;Parvaiz;Franka;21.02.1950;Gesetzlich;w
+299;Pototzki;Yasmine;19.08.1954;Gesetzlich;w
+300;Bahadoran Pourbaghbaderani;Maximilian Georg;01.11.1955;Gesetzlich;m
+301;Horakovic;Isabell;19.06.1956;Privat;w
+302;Jodocy;David;03.10.1956;Privat;m
+303;Klaas;Patrick;09.07.1959;Gesetzlich;m
+304;Biaesch;Mohammed;13.03.1957;Gesetzlich;m
+305;Bigdeli;Maximilian;26.09.1957;Gesetzlich;m
+306;Klinger;Bartu;01.05.1958;Gesetzlich;m
+307;Alkhatib;Maxim Pavlovic;22.10.1955;Gesetzlich;m
+308;Jabbarli;Jonas David;10.05.1958;Privat;m
+309;Abdul Aziz;Romy;31.03.1957;Gesetzlich;w
+310;Schimmelpfennig;Ruben;13.05.1959;Gesetzlich;m
+311;Lassen;Jennifer;13.10.1959;Gesetzlich;w
+312;Tillinger;Daniel;19.11.1955;Gesetzlich;m
+313;Hery;Alex;05.11.1950;Gesetzlich;m
+314;Schadeck;Alicia;29.05.1952;Gesetzlich;w
+315;Beschorner;Maximilian;29.08.1956;Gesetzlich;m
+316;Segeth;Natasha;09.05.1952;Gesetzlich;w
+317;Yildiz;Alesandra;08.01.1951;Gesetzlich;w
+318;Fradi;Selin;01.11.1951;Gesetzlich;w
+319;Räpple;Lucas;06.02.1955;Gesetzlich;m
+320;Andreev;Burhan;21.01.1958;Privat;m
+321;Kiwitz;Jülide;08.02.1958;Privat;w
+322;Ceylan;Hamza;26.12.1953;Gesetzlich;m
+323;Ries;Julian;13.02.1954;Privat;m
+324;Doan;Maja;03.11.1951;Gesetzlich;w
+325;Richter;Ruqqiya;06.09.1955;Sonstige;w
+326;Özkaya;Simon Vincent;13.09.1956;Sonstige;m
+327;Kraft;Viola;23.06.1951;Gesetzlich;w
+328;Kuhn;Rezwanullah;31.01.1953;Gesetzlich;m
+329;Walter;Theodor;01.06.1948;Gesetzlich;m
+330;Ripper;Anila;18.01.1950;Gesetzlich;w
+331;Hasse;Joleene;17.03.1948;Gesetzlich;w
+332;Prinz;Robert;30.06.1951;Sonstige;m
+333;Krasovski;Haruka;31.08.1951;Privat;w
+334;Güz;Wolfgang;09.11.1946;Gesetzlich;m
+335;Schirmer;Oko;13.07.1945;Gesetzlich;m
+336;El Hasnaoui;Dan;23.10.1947;Gesetzlich;w
+337;Jacob;Jan;30.03.1948;Gesetzlich;m
+338;Hort;Louisa;11.11.1948;Gesetzlich;w
+339;Mechiki;Robert Christopher;25.02.1952;Gesetzlich;m
+340;Zidros;Sarah;19.03.1947;Privat;w
+341;Mathews;Alexander;12.07.1952;Sonstige;m
+342;Grünewald;Andreas;15.12.1950;Gesetzlich;m
+343;Roos;Elisabeth;09.03.1951;Gesetzlich;w
+344;Schmidt;Alexander Tobias;20.02.1951;Gesetzlich;m
+345;Nastos;Emilie;15.04.1956;Gesetzlich;w
+346;Lekoumbou Wati;Hallisson;22.12.1951;Gesetzlich;m
+347;Koc;Bianca;26.07.1946;Gesetzlich;w
+348;Celiköz;Michael;01.02.1950;Gesetzlich;m
+349;Tokarski;Cagatay;01.09.1950;Gesetzlich;m
+350;Lewis;Jordan Leona;05.12.1948;Privat;w
+351;Scharfe;Fabio;19.05.1949;Privat;m
+352;Schröder;Jacqueline;02.09.1954;Gesetzlich;w
+353;Thomas;Lea;10.09.1955;Gesetzlich;w
+354;Akdeniz;Ayse Nur;16.03.1952;Gesetzlich;w
+355;Hock;Alexander;21.10.1953;Gesetzlich;m
+356;Dietrich;Dania;19.05.1955;Gesetzlich;w
+357;Mink;Ricarda;25.11.1950;Gesetzlich;w
+358;Czernek;Khashayar;24.07.1944;Gesetzlich;m
+359;Miguletz;Konstantin Frederik;28.05.1940;Gesetzlich;m
+360;Kranz;Matias Sebastian;27.02.1941;Gesetzlich;m
+361;Ho;Julia;17.08.1938;Privat;w
+362;Christoph;Leonie;06.03.1939;Gesetzlich;w
+363;Yigit;Lucia;16.04.1939;Gesetzlich;w
+364;Klecker;Till;07.01.1936;Gesetzlich;m
+365;Pfannemüller;David;09.12.1936;Gesetzlich;m
+366;Affanou;Marvin;12.02.1937;Gesetzlich;m
+367;Becker;Leoni;28.06.1937;Gesetzlich;w
+368;Focke;Tobias;05.12.1938;Gesetzlich;m
+369;Keutz;Sandra;16.01.1939;Gesetzlich;w
+370;Ocasha;Huong;21.10.1942;Sonstige;w
+371;Giesler;Yannis;26.03.1943;Privat;m
+372;Horasan;Marina;08.05.1947;Privat;w
+373;Halilcavusogullari;Henrike Anthea;04.05.1943;Privat;w
+374;Drath;Björn;13.09.1942;Gesetzlich;m
+375;Görlitz;Claire;15.12.1938;Gesetzlich;w
+376;Hamed;Mayuri;19.04.1940;Gesetzlich;w
+377;Ulucan;Silke;27.07.1938;Gesetzlich;w
+378;Parlaksu;Lisa;06.02.1934;Gesetzlich;w
+379;Wonogo;Rim;08.04.1934;Gesetzlich;w
+380;Deutsch;Niclas;29.11.1934;Gesetzlich;m
+381;Bonadonna;Nathalie;02.04.1935;Gesetzlich;w
+382;Hymon;Jana;26.02.1929;Gesetzlich;w
+383;Sajid;Marie-Therese;19.05.1929;Gesetzlich;w
+384;von Rhein;Ronja;22.07.1931;Privat;w
+385;Reschke;Alexa;30.01.1933;Gesetzlich;w
+386;Ax;Mourad;09.11.1936;Privat;m
+387;Azemtsop;Wienke;28.03.1937;Gesetzlich;w
+388;Lomazov;Levin;19.12.1937;Sonstige;m
+389;Saad;Thanh Hang;09.05.1938;Privat;w
+390;Hinz;Fransiska Damara;24.09.1938;Gesetzlich;w
+391;Sancaktar;Niloufar;24.11.1938;Gesetzlich;w
+392;Aggül;Michele;20.08.1939;Privat;w
+393;Ermeck;Raissa Farida;04.06.1937;Privat;w
+394;Mallm;Leonie;23.09.1940;Gesetzlich;w
+395;Leppert;Ranya;05.02.1941;Gesetzlich;w
+396;Beck;Joana;25.12.1944;Gesetzlich;w
+397;Riemensperger;Leonie;25.06.1941;Gesetzlich;w
+398;Leimgruber;Mai Chi;02.09.1937;Gesetzlich;w
+399;Avci;Batuhan;26.12.1936;Gesetzlich;m
+400;Reutter;Alina;02.12.1937;Privat;w
+401;Vitz;Viktoria;17.10.1938;Gesetzlich;w
+402;Köhler;Julie;05.02.1939;Gesetzlich;w
+403;Beckmann;Carolin;06.04.1939;Gesetzlich;w
+404;Eskandari;Noreen;01.04.1937;Gesetzlich;w
+405;Gollin;Anke;10.03.1938;Gesetzlich;w
+406;Walther;Clara;15.11.1938;Privat;w
+407;Vorobyev;Cedric;27.06.1943;Gesetzlich;m
+408;Kahraman;Emily;17.03.1944;Gesetzlich;w
+409;Schewelew;Stefania;07.08.1940;Gesetzlich;w
+410;Swidersky;Franziska;17.11.1945;Gesetzlich;w
+411;Glossner;Jannis;01.11.1946;Gesetzlich;m
+412;Khademhaftani;Thi Thu Ha;15.01.1942;Privat;w
+413;Wetzstein;Franziska;08.09.1945;Gesetzlich;w
+414;Shaat;Caroline;11.02.1944;Gesetzlich;w
+415;Poertner;Merve;23.01.1945;Gesetzlich;w
+416;Sabo;Leon Herbert Viljem;30.08.1941;Gesetzlich;m
+417;Deck;Mirasgher;17.10.1938;Gesetzlich;m
+418;Kalinka;Johannes Cao Minh;16.06.1939;Gesetzlich;m
+419;Fuchs;Lorina Chesnelle;24.05.1940;Privat;w
+420;Maksuti;Angela;10.04.1943;Gesetzlich;w
+421;Lakos;Loredana-Lavinia;02.09.1943;Gesetzlich;w
+422;Best;Laura Alina;20.04.1944;Gesetzlich;w
+423;Cabral Vogt;Viola;11.11.1941;Privat;w
+424;Deißroth;Ahmed Mohamed Araby Sayed;28.09.1945;Gesetzlich;m
+425;Erdös;Steven Vieri;25.08.1944;Gesetzlich;m
+426;Aghedo;Dennis;27.08.1940;Sonstige;m
+427;Habel;Mirjam;25.10.1942;Gesetzlich;w
+428;Frey;Stella Julia;03.08.1937;Gesetzlich;w
+429;Essig;Suelnur;05.06.1936;Gesetzlich;w
+430;Ganev;Hatem;27.09.1935;Privat;m
+431;Tsoungui Donfack;Fabian;20.05.1936;Gesetzlich;m
+432;Boutaouas;Lisa;27.04.1933;Privat;w
+433;Mashaan;Aldo;29.08.1935;Gesetzlich;m
+434;Aguiar Rafael;Khanh Ly;13.10.1935;Gesetzlich;w
+435;Ekinci;Huong;08.02.1938;Gesetzlich;w
+436;Asona Nzoyem;Pit;14.07.1941;Gesetzlich;m
+437;Hery;Chiara Anna;09.02.1942;Gesetzlich;w
+438;Strickler;Alexandra;21.04.1936;Gesetzlich;w
+439;Steinmetzer;Mehmet;05.05.1938;Privat;m
+440;Lin;Elena;10.02.1942;Gesetzlich;w
+441;Ceylan;Thanh;16.01.1947;Gesetzlich;m
+442;Grünewald;Theresa;09.10.1952;Gesetzlich;w
+443;Meister;Lorina Chesnelle;14.12.1952;Gesetzlich;w
+444;Müller;Jasmin;26.08.1949;Gesetzlich;w
+445;Delifer;Luise;22.06.1950;Privat;w
+446;Lange;Jan;07.03.1945;Gesetzlich;m
+447;Foglia;Jade;13.05.1948;Gesetzlich;w
+448;Haidacher;Hermann;26.10.1947;Gesetzlich;m
+449;Lorenz;Veronika;30.07.1946;Privat;w
+450;Kraia;Lucas;25.05.1947;Privat;m
+451;Zukinta;Rami Mira;10.08.1947;Sonstige;w
+452;Reynolds;Shadi;21.02.1943;Gesetzlich;w
+453;Puhlmann;Annika;05.02.1940;Gesetzlich;w
+454;Reinhardt;Chime;06.12.1935;Gesetzlich;m
+455;Jotzo;Simon;25.10.1934;Gesetzlich;m
+456;Ucar;Thanh;01.05.1939;Gesetzlich;m
+457;Sommer;Franziska;09.01.1940;Gesetzlich;w
+458;Schmitt;Anne-Sophie;01.08.1940;Gesetzlich;w
+459;Wenz;Senta;29.01.1944;Sonstige;w
+460;Uzun;Laurita;04.06.1944;Gesetzlich;w
+461;Rouhandeh;Ngoc Oanh;25.08.1946;Gesetzlich;w
+462;Schmidt;Afeni;19.03.1941;Gesetzlich;w
+463;Nguyen;Ivan Jordan Williams;09.05.1943;Gesetzlich;m
+464;Babin;Hans;12.12.1946;Gesetzlich;m
+465;Swidersky;Marianna;18.11.1941;Gesetzlich;w
+466;Akgün;Eve Angeline;08.10.1940;Gesetzlich;w
+467;Cardenas Munoz;Ahlam;17.04.1945;Gesetzlich;w
+468;Bulut;Simon;14.04.1944;Gesetzlich;m
+469;Geyer;Melissa;27.12.1942;Privat;w
+470;Habibi Dogouri;Julia;29.04.1947;Gesetzlich;w
+471;Yamak;Marieke;23.11.1942;Privat;w
+472;Wiesner;Philipp;28.10.1946;Gesetzlich;m
+473;Ajaghfouf;Franka;28.02.1943;Gesetzlich;w
+474;Freyer;Tobias;07.06.1945;Gesetzlich;m
+475;Ali;Daniela;19.07.1947;Gesetzlich;w
+476;Ortlieb;Haruka;05.05.1942;Gesetzlich;w
+477;Gärtner;Karen;03.08.1944;Gesetzlich;w
+478;Gerbeth;Anwesha;23.04.1940;Gesetzlich;w
+479;König;Nicolas;29.11.1941;Gesetzlich;m
+480;Kronfeld;Noah;23.06.1938;Gesetzlich;m
+481;Arshavskiy;Alexandra;15.06.1937;Gesetzlich;w
+482;Czeski;Lukas;30.03.1936;Gesetzlich;m
+483;Akkad;Thi Thu Ha;14.06.1940;Gesetzlich;w
+484;Marquardt;Marc;26.05.1938;Gesetzlich;m
+485;Kreuzer;Kristian;03.04.1941;Privat;m
+486;Bodenstein;Tom;18.05.1943;Gesetzlich;m
+487;Segeth;Kim Joanna;15.01.1938;Gesetzlich;w
+488;Christoph;Abdelrahamn Gamal Abdelsalam;01.07.1939;Gesetzlich;m
+489;Fleck;Muhammad Fadhil;19.11.1939;Gesetzlich;m
+490;Weihl;Celine;13.06.1943;Gesetzlich;w
+491;Wunder;Jona;12.09.1943;Gesetzlich;m
+492;Himmelsbach;Ayoub;18.10.1938;Gesetzlich;m
+493;Konle;Sara;10.01.1939;Gesetzlich;w
+494;Kleine;Andreia;26.06.1941;Gesetzlich;w
+495;Matuschyk;Kossi Henri Fabrice;01.06.1942;Gesetzlich;m
+496;Röckelein;Jiahua;14.07.1942;Gesetzlich;w
+497;Welday;Paul;14.11.1942;Gesetzlich;m
+498;Kautzmann;Mhdmowaffak;27.03.1943;Gesetzlich;m
+499;Klotzbach;Gisane;04.11.1940;Privat;w
+500;Widany;Thi Phuong;07.04.1941;Gesetzlich;w
+501;Felger;Nikolaos;27.03.1942;Privat;m
+502;Bialas;Samuel;14.02.1943;Sonstige;m
+503;Porada;Amin;26.08.1943;Gesetzlich;m
+504;Rehse;Patrick;06.12.1941;Gesetzlich;m
+505;Hammer;Nico;23.12.1941;Gesetzlich;m
+506;Dhakal;Emre;06.01.1944;Gesetzlich;m
+507;Schönherr-Foree;Esra;04.12.1944;Gesetzlich;w
+508;Aliyev;Lisa;11.11.1940;Gesetzlich;w
+509;Zwinge;Fabienne;13.04.1941;Gesetzlich;w
+510;Lösing;Damaris;24.01.1942;Gesetzlich;w
+511;Stockhardt;Valeriya;04.09.1941;Gesetzlich;w
+512;Nguyen;Marcel;17.05.1937;Privat;m
+513;Kuo;Frederik;23.08.1937;Gesetzlich;m
+514;Seegmüller;Florian;02.05.1941;Gesetzlich;m
+515;Schimmer;Lena;11.10.1940;Privat;w
+516;Sedhai;Fiona;24.01.1941;Gesetzlich;w
+517;Schwieg;Lukas;26.10.1943;Gesetzlich;m
+518;Petersen;Melina;12.06.1942;Gesetzlich;w
+519;Shorter;Manh Hung;13.07.1939;Sonstige;m
+520;Eckhart;Lisa Orlanda;23.11.1943;Gesetzlich;w
+521;Yahaya;Cassandra;15.11.1940;Gesetzlich;w
+522;Bojanic;Ragibe Hatice;20.10.1941;Gesetzlich;w
+523;Abdelaal;Hannah;29.01.1950;Gesetzlich;w
+524;Kindl;Tim;01.10.1942;Gesetzlich;m
+525;Kistner;Salomé;17.08.1940;Gesetzlich;w
+526;Michel;Danail;26.11.1944;Gesetzlich;m
+527;Roring;Yan;23.06.1945;Gesetzlich;w
+528;Tagliente;Leon;22.12.1945;Gesetzlich;m
+529;Hanke;Seline Diana Akoth;12.12.1939;Gesetzlich;w
+530;Helm;Karen;05.07.1940;Gesetzlich;w
+531;Kositza;Volkan;26.07.1943;Gesetzlich;m
+532;Allrachi;Carla;04.07.1945;Gesetzlich;w
+533;Schäfer;Hans Georg Richard;28.02.1947;Gesetzlich;m
+534;Schmidt;Jasmin;07.09.1947;Gesetzlich;w
+535;Boudouhi;Shasia;09.05.1948;Gesetzlich;w
+536;Wahab;Perihan;19.12.1948;Gesetzlich;w
+537;Hövel;Kai;16.09.1943;Gesetzlich;m
+538;Lontsi Limoteu;Emilia;03.01.1945;Gesetzlich;w
+539;Eidemüller;Brandon;26.08.1942;Gesetzlich;m
+540;Adane Kassa;Winta;01.10.1947;Gesetzlich;w
+541;Strickler;Thi ngoc Huyen;09.01.1942;Gesetzlich;w
+542;Abdurrahman;Philipp;13.10.1939;Gesetzlich;m
+543;Stäbler;Saskia;30.04.1942;Gesetzlich;w
+544;Dreher;Isabel;03.08.1942;Gesetzlich;w
+545;Khalifeh;Yu-Jin;24.04.1937;Gesetzlich;w
+546;Fernandez Mantilla;Margarita;02.02.1940;Gesetzlich;w
+547;Balbach;Fiona;25.05.1944;Gesetzlich;w
+548;Elmas;Jessica;09.08.1940;Privat;w
+549;Riehl;Andreas;22.04.1939;Gesetzlich;m
+550;Döhler;Tillmann;13.02.1941;Gesetzlich;m
+551;Pracht;Annika;14.04.1937;Gesetzlich;w
+552;Seyberth;Martyna;26.12.1940;Gesetzlich;w
+553;Thomas;Jennifer;25.02.1941;Gesetzlich;w
+554;Tayoura;Ipek;30.12.1941;Gesetzlich;w
+555;Keller;Amelie;25.02.1943;Privat;w
+556;Staab;Jasmin;09.08.1940;Gesetzlich;w
+557;Llaban;Mattea;04.03.1945;Gesetzlich;w
+558;Franke;Ahmed;28.03.1943;Gesetzlich;m
+559;Monsri;Ahlam;10.05.1945;Gesetzlich;w
+560;Herzog;Jasmin;01.04.1948;Privat;w
+561;Caligagan;ESE;24.10.1952;Gesetzlich;m
+562;Ullrich;Ronja;11.08.1953;Gesetzlich;w
+563;Reutter;Johannes;10.08.1954;Gesetzlich;m
+564;Vissing;Karina;13.05.1955;Gesetzlich;w
+565;Blauth;Paul;08.08.1955;Sonstige;m
+566;Hoffmann;Nicolas;08.06.1951;Gesetzlich;m
+567;Sobottka;Tim;19.10.1953;Gesetzlich;m
+568;Waraich;Julia;26.04.1954;Gesetzlich;w
+569;Ngueagni Dongmo;Ilyas Vakkas;31.08.1949;Privat;m
+570;Kurth;Luise;02.12.1947;Gesetzlich;w
+571;Ahmad;Ruqqiya;23.06.1948;Gesetzlich;w
+572;Ugur;Paula;09.09.1949;Gesetzlich;w
+573;Konrad;Annekathrin;18.05.1950;Gesetzlich;w
+574;Sanetra;Madeline;01.09.1950;Gesetzlich;w
+575;Schlindwein;Joseph;27.04.1951;Privat;m
+576;Eustergerling;Benedikt;31.03.1952;Privat;m
+577;Nover;Florian;16.07.1948;Gesetzlich;m
+578;Chenani Salhi;Robin;18.11.1943;Gesetzlich;m
+579;Obel;Fabian;11.03.1941;Gesetzlich;m
+580;Cheong;Samuel;02.10.1944;Gesetzlich;m
+581;Jehangir;Manuel;19.04.1948;Gesetzlich;m
+582;Pham;Alesandra;07.05.1943;Gesetzlich;w
+583;Klaus;Aaron Alexander;24.06.1946;Gesetzlich;m
+584;Pasaoglu;Hoang Long;22.12.1948;Gesetzlich;m
+585;Breteau;Eric;28.07.1943;Gesetzlich;m
+586;Hofacker;El-Houssine;04.11.1942;Gesetzlich;m
+587;Akkaya;Stella Antoinette;27.03.1938;Gesetzlich;w
+588;Cincato;Julia;04.06.1934;Gesetzlich;w
+589;Yilmaz;Hanna Rebecka;26.08.1939;Gesetzlich;w
+590;Djuhic;Büsra;27.07.1942;Gesetzlich;w
+591;Rüter;Minh Thanh;07.06.1944;Gesetzlich;m
+592;Winternheimer;Suelnur;07.03.1942;Gesetzlich;w
+593;Nafti;Mariusz;05.04.1943;Gesetzlich;m
+594;Dongmo Kenfack;Nicole;13.11.1944;Gesetzlich;w
+595;Yildirim;Stella Julia;18.06.1943;Privat;w
+596;Kurtar;Omar;26.06.1939;Gesetzlich;m
+597;Sieira Spengler;Frederik;21.10.1942;Privat;m
+598;Geißler;Mirjam;30.06.1943;Gesetzlich;w
+599;Nawrat;Helene Antonia;24.05.1944;Gesetzlich;w
+600;Chammaa;Iris;15.11.1945;Gesetzlich;w
+601;Wortmann;Wiebke;01.08.1950;Gesetzlich;w
+602;Mohamed;Dimitria Atanasova;07.05.1945;Gesetzlich;w
+603;Schwendner;Charlotte;19.09.1948;Gesetzlich;w
+604;Schmidt;Arijan;31.12.1945;Gesetzlich;m
+605;Fradi;Chris Tom;14.04.1946;Gesetzlich;m
+606;Bozok;Sophie;11.12.1946;Gesetzlich;w
+607;Tan;Aleyna;03.10.1947;Privat;w
+608;Wittmann;Sascha;06.04.1944;Privat;m
+609;Sterba;Anja;03.07.1948;Privat;w
+610;Hussein;Vishal;27.04.1945;Gesetzlich;m
+611;Pavlenko;Adrianna Amra;28.02.1946;Gesetzlich;w
+612;Kahraman;Anwesha;02.08.1943;Gesetzlich;w
+613;Fiedler;Karim;10.11.1943;Gesetzlich;m
+614;Izykiewicz;Dennis;03.07.1942;Gesetzlich;m
+615;Arand;Laura Maria;15.06.1939;Gesetzlich;w
+616;Simonenko;Linda Cristin;27.02.1941;Gesetzlich;w
+617;Thielke;Ngoc Lan;23.03.1945;Gesetzlich;w
+618;Lohr;Nina;26.01.1942;Privat;w
+619;Appelbaum;Maria;19.09.1942;Gesetzlich;w
+620;Top;Dimitrij;02.07.1941;Gesetzlich;m
+621;Hesse;Carolin;26.09.1941;Gesetzlich;w
+622;Hausotter;Abdul-Rahman;08.11.1945;Gesetzlich;m
+623;Kirschner;Julia;31.05.1947;Gesetzlich;w
+624;Matuschyk;Thi Que Huong;13.12.1946;Gesetzlich;w
+625;Gruner;Shannon;17.11.1943;Gesetzlich;w
+626;Göbel;Alexa;04.05.1945;Gesetzlich;w
+627;Travecedo Häntschke;Majd;19.03.1947;Privat;m
+628;Becker;Vincent;15.07.1942;Gesetzlich;m
+629;Puhlmann;Mariana;16.08.1946;Gesetzlich;w
+630;Weiß;Isil;09.03.1948;Gesetzlich;w
+631;Chacon Menke;Recep-Ahmed;24.05.1945;Gesetzlich;m
+632;Seidler;Larissa;06.05.1946;Privat;w
+633;Spengler;Lea;18.03.1947;Gesetzlich;w
+634;Vikulov;Lukas;30.10.1948;Gesetzlich;m
+635;Henze;Julia;03.09.1949;Gesetzlich;w
+636;Kurtar;Mohamad Zakaria;10.08.1951;Gesetzlich;m
+637;Roth;Juma;14.08.1947;Gesetzlich;w
+638;Gajanin;Alexandra;18.04.1949;Gesetzlich;w
+639;Ihlenfeld;Melissa;13.03.1948;Gesetzlich;w
+640;Seebode;Susanne;23.04.1944;Privat;w
+641;Elsheshtawy;Elisabeth;31.07.1947;Gesetzlich;w
+642;Himmat;Szymon Arkadiusz;03.10.1947;Gesetzlich;m
+643;Leder;Luisa;18.07.1951;Gesetzlich;w
+644;Fuks;Pablo Gonzalo;16.03.1952;Gesetzlich;m
+645;Machill;Demis;13.08.1955;Gesetzlich;m
+646;Hofmann;Tai Linh;26.07.1953;Gesetzlich;m
+647;Schlott;Chantal;10.07.1949;Privat;w
+648;Grobarek;Max;15.04.1944;Gesetzlich;m
+649;Thiele;Philipp;15.12.1948;Privat;m
+650;Pfezer;Jale;14.08.1949;Sonstige;w
+651;Hilkert;Jannik;27.04.1950;Gesetzlich;w
+652;Bici;Kerim-Can;03.01.1951;Gesetzlich;m
+653;Junker;Marco;12.04.1947;Gesetzlich;m
+654;Tanhansen;Thi ngoc Huyen;07.08.1951;Privat;w
+655;Lucien;Sophie;12.03.1946;Gesetzlich;w
+656;Thon;Wiebke;29.08.1946;Gesetzlich;w
+657;Schmidt;Jens;07.11.1946;Gesetzlich;m
+658;Rouhandeh;Isil;11.06.1947;Privat;w
+659;Kühn;Angela;01.05.1944;Gesetzlich;w
+660;Schwab;Laura;22.01.1949;Gesetzlich;w
+661;Charni;Chiara-Maria;19.03.1944;Gesetzlich;w
+662;Eckle;Coretta;12.10.1944;Privat;w
+663;Pokladnik;Sebastian;12.06.1949;Gesetzlich;m
+664;Ströher;Kanzul Fatima;14.01.1945;Gesetzlich;w
+665;Kofort;Margarita;06.01.1950;Gesetzlich;w
+666;Eldessouki;Henrik;15.11.1953;Privat;m
+667;Salajevs;Tabea;14.08.1954;Gesetzlich;w
+668;Novack;Anton;03.05.1955;Gesetzlich;m
+669;Clement;Judith;21.09.1951;Gesetzlich;w
+670;Stöckbauer;Dilara;14.10.1950;Gesetzlich;w
+671;Vosskühler;Caroline;03.04.1945;Gesetzlich;w
+672;Cheong;Robert;09.10.1949;Gesetzlich;m
+673;Strobl;Daniela;20.09.1947;Gesetzlich;w
+674;Stüber;Maria;27.05.1949;Gesetzlich;w
+675;Meier;Marie;04.03.1953;Gesetzlich;w
+676;Delifer;Valerie;04.11.1950;Gesetzlich;w
+677;Waguem Fossi;Stephanie;01.02.1946;Privat;w
+678;Krüger;Farhan;23.11.1948;Gesetzlich;m
+679;Seidl;Niklas;16.03.1950;Privat;m
+680;Herweh;Samuel;01.07.1950;Gesetzlich;m
+681;Czegley;Chris Tom;18.12.1945;Gesetzlich;m
+682;Zidros;Amrita;28.12.1949;Gesetzlich;w
+683;Dürrwang;Elham;05.10.1947;Privat;w
+684;Rauch;Annekathrin;05.02.1948;Privat;w
+685;Jacob;Dominik;12.05.1948;Gesetzlich;m
+686;Mushack;Lukas;26.11.1946;Privat;m
+687;Machado Oliveira;Christian;27.09.1947;Gesetzlich;m
+688;Tröger;Sebastian;15.08.1945;Gesetzlich;m
+689;Brunkhorst;Zhi Chien;28.11.1945;Gesetzlich;m
+690;Frankenberger;Luise;07.11.1946;Gesetzlich;w
+691;Trautner;Jennifer;27.05.1946;Gesetzlich;w
+692;Taner;Sofia;17.04.1943;Gesetzlich;w
+693;Meier;Simone;19.08.1943;Gesetzlich;w
+694;Pohler;Hilal;14.02.1942;Gesetzlich;w
+695;Herrmann;Alexandra;04.04.1942;Gesetzlich;w
+696;Daumüller;Maike;10.10.1944;Gesetzlich;w
+697;Treffkorn;Constantin;07.03.1946;Gesetzlich;m
+698;Puhlmann;Baris;30.03.1949;Gesetzlich;m
+699;Klaus;Valeriya;11.04.1949;Gesetzlich;w
+700;Henderson;Felix Christian;06.02.1947;Gesetzlich;m
+701;Adamson;Kathrin;06.09.1945;Gesetzlich;w
+702;Widera;Ricarda;06.11.1945;Gesetzlich;w
+703;Dziduch;Mikail;08.05.1948;Gesetzlich;m
+704;Zaria;Henning;12.08.1946;Gesetzlich;m
+705;Xue;Omar;21.12.1948;Gesetzlich;m
+706;Sacherer;Jule;23.03.1949;Gesetzlich;w
+707;Lindemann;Saskia;05.12.1949;Gesetzlich;w
+708;Ohanes;Michael;03.01.1945;Gesetzlich;m
+709;Petry;Felix Clemens Karl;05.11.1945;Gesetzlich;m
+710;Quintino;Hilal;16.09.1946;Privat;w
+711;Wenchel;Anastasiia;21.09.1948;Gesetzlich;w
+712;Wobiwo Fowe;Lena;17.04.1949;Gesetzlich;w
+713;Ismaili;Leonie;16.09.1949;Sonstige;w
+714;Mathews;Isabel;18.02.1947;Sonstige;w
+715;Vollmer;Ayla Linda;05.05.1945;Gesetzlich;w
+716;Otto;Jenny;31.08.1944;Gesetzlich;w
+717;Al Krad;Phuong Anh;22.12.1948;Gesetzlich;w
+718;Ivanov;Marcel Frank;25.12.1948;Gesetzlich;m
+719;Flath;Tatjana;03.11.1949;Gesetzlich;w
+720;Jusufovic;Viktoria;09.08.1950;Gesetzlich;w
+721;Breuer;Rene Stefan;06.02.1951;Gesetzlich;m
+722;Ströher;Kai;04.06.1951;Gesetzlich;m
+723;Reiz;Darya;10.10.1944;Gesetzlich;w
+724;Binder;Rositsa;29.10.1941;Gesetzlich;w
+725;Felger;Julian;15.06.1942;Privat;m
+726;Akkad;David;13.08.1944;Gesetzlich;m
+727;Vonderschmidt;Arian;02.02.1945;Gesetzlich;m
+728;Czegley;Michael;28.02.1945;Gesetzlich;m
+729;Ziesche;Rebecca Anja Linda;18.08.1948;Gesetzlich;w
+730;Dmitrienko;Anna;21.09.1946;Privat;w
+731;Edou;Nicole;07.12.1946;Privat;w
+732;Meuser;Semhar;07.08.1947;Gesetzlich;w
+733;Mahouk;Romain Arnold;14.06.1948;Gesetzlich;m
+734;Wantke;Max;23.07.1945;Gesetzlich;m
+735;Kuch;Safae;22.03.1946;Gesetzlich;w
+736;Schäfer;Tobias;27.01.1943;Privat;m
+737;von Stemm;Dina;17.12.1948;Gesetzlich;w
+738;Gammaro;Johann;17.08.1949;Privat;m
+739;Daebler;Patrick;21.05.1946;Gesetzlich;m
+740;Klotzsch;Amine;15.04.1950;Privat;m
+741;Kimmel;Paul Levi;20.08.1950;Gesetzlich;m
+742;Leo;Melina;14.04.1948;Sonstige;w
+743;Annen;Noel;27.08.1946;Gesetzlich;m
+744;Meinhardt;Max;15.12.1947;Gesetzlich;m
+745;Kugler;Nerhan;13.09.1946;Privat;m
+746;Yilmaz;Adriatik;15.04.1945;Gesetzlich;m
+747;Houlaimi;Rafael;05.04.1946;Privat;m
+748;Borsum;Julia;23.07.1949;Privat;w
+749;Abu-Salha;Markus;04.03.1950;Gesetzlich;m
+750;Schwind;Ina;30.10.1951;Gesetzlich;w
+751;Luo;Simon;13.01.1946;Gesetzlich;m
+752;Tröger;Jael Magdalene;22.10.1946;Gesetzlich;w
+753;Böhmer;Felicia;21.01.1945;Gesetzlich;w
+754;Meunier;Markus;23.07.1948;Gesetzlich;m
+755;Ferizovic;Alisa;06.07.1943;Gesetzlich;w
+756;Güz;Lena;14.10.1945;Gesetzlich;w
+757;Keleta;Perihan;07.06.1949;Gesetzlich;w
+758;Schweigert;Ralph Reinhold;23.12.1948;Gesetzlich;m
+759;Koc;Julia;09.12.1949;Gesetzlich;w
+760;Nana Meyo;Mariia;24.06.1950;Gesetzlich;w
+761;Valeshkov;Florian;25.11.1950;Gesetzlich;m
+762;Reinzbach;Danail;30.06.1947;Privat;m
+763;Güldogan;Janina;17.02.1945;Gesetzlich;w
+764;Dubberke;Burak;18.11.1949;Gesetzlich;m
+765;Alves Zipf;Vrinda Prakash;11.06.1951;Gesetzlich;w
+766;Sultani;Marie-Louise Alessandra;11.02.1952;Sonstige;w
+767;Krischer;Mattea;01.07.1948;Gesetzlich;w
+768;Gerbeth;Victoria;16.12.1948;Gesetzlich;w
+769;Anabtawi;Dominik Robin;19.07.1949;Gesetzlich;m
+770;Öztürk;Israt;16.08.1949;Privat;w
+771;Seidl;Stefan;22.04.1951;Gesetzlich;m
+772;Kuzkaya;Dilek;28.11.1947;Gesetzlich;w
+773;Martinez Lopez;Julia;07.11.1950;Gesetzlich;w
+774;Trabelsi;Emrah;17.12.1950;Gesetzlich;m
+775;Zill;Michael;06.07.1945;Gesetzlich;m
+776;Andrae;Darya;08.11.1949;Gesetzlich;w
+777;Lekoumbou Wati;Marius Johannes Josef;14.04.1948;Privat;m
+778;Tröger;Simon;04.07.1949;Gesetzlich;m
+779;Vijayakaran;Alexander;17.08.1948;Gesetzlich;m
+780;Günsche;Dominik;14.05.1945;Privat;m
+781;Frey;Sarah;02.11.1948;Gesetzlich;w
+782;Arisandi;Minh;03.04.1949;Privat;m
+783;Dotter;Nepomuk;27.01.1949;Privat;m
+784;Gehlen;Fabian;11.07.1949;Gesetzlich;m
+785;Chen;Edie Martial;26.05.1950;Privat;m
+786;Freckem;Indranil;15.10.1950;Gesetzlich;w
+787;Ziesche;Gulbarchyn;15.10.1948;Gesetzlich;w
+788;Weber;Arghavan;06.04.1946;Gesetzlich;w
+789;Vitz;Anna;21.04.1946;Gesetzlich;w
+790;Krüger;Sophia;27.03.1951;Gesetzlich;w
+791;Netzer;Mayuri;07.11.1951;Sonstige;w
+792;Merten;Hannah;19.03.1950;Privat;w
+793;Khederzadeh;Baris;28.03.1945;Gesetzlich;m
+794;Müller;Leoni;14.02.1946;Gesetzlich;w
+795;Styvrin;Huiyi;26.07.1944;Privat;w
+796;Brell;Kristina;06.06.1945;Gesetzlich;w
+797;Meyer;Fee;27.07.1945;Gesetzlich;w
+798;Herrlich;Noah;07.05.1946;Gesetzlich;m
+799;Brehm;Lars;10.10.1946;Sonstige;m
+800;Nawied;Florian;10.11.1947;Privat;m
+801;Cheng;Nicolai Alexander;27.03.1946;Gesetzlich;m
+802;Gofman;Elena Berna;07.02.1950;Gesetzlich;w
+803;Kronfeld;Lola;01.05.1948;Gesetzlich;w
+804;Razlaf;Alexander;06.03.1949;Gesetzlich;m
+805;Anton;Luca;03.06.1951;Privat;m
+806;Brecht;Lisa;05.03.1946;Gesetzlich;w
+807;Affanou;Jessica Kaylee;24.09.1946;Sonstige;w
+808;Sahmkow;Tobias;19.07.1945;Gesetzlich;m
+809;Tetzlaff;Julian;24.08.1946;Gesetzlich;m
+810;Schmitt;Jacqueline;14.11.1946;Gesetzlich;w
+811;Belkadi;Patrick;19.09.1945;Gesetzlich;m
+812;Karabekmez;Bahaeddine;16.04.1946;Gesetzlich;m
+813;Stöhr;Shadi;25.09.1949;Gesetzlich;w
+814;Ottersbach;Tosief Ahmed;05.12.1950;Gesetzlich;m
+815;Mezano Bougang;Sebastian;13.04.1946;Gesetzlich;m
+816;Cordes;Tim Lukas;11.11.1948;Gesetzlich;m
+817;Krumm;Hamza;17.10.1947;Gesetzlich;m
+818;Heinz;Anna;13.12.1946;Gesetzlich;w
+819;Atwal;Helena;24.05.1942;Gesetzlich;w
+820;Blänsdorf;Stefan;23.06.1942;Gesetzlich;m
+821;Trautmann;Hagen-Maik;12.09.1947;Gesetzlich;m
+822;Mock;Lukas;10.06.1945;Gesetzlich;m
+823;Boog;Carolin;04.07.1948;Gesetzlich;w
+824;Klar;Ronja;02.11.1952;Gesetzlich;w
+825;Neubig;Gloria;01.06.1953;Gesetzlich;w
+826;Stein;Lydia;04.04.1954;Privat;w
+827;Kehr;Ymelda Brons;27.11.1954;Gesetzlich;w
+828;Haryanto;Tamara;25.04.1955;Gesetzlich;w
+829;Bulut;Ben;09.10.1955;Gesetzlich;m
+830;Wiedner;Daniel;18.05.1952;Gesetzlich;m
+831;Armstrong-Arndt;Kathrin;11.04.1953;Gesetzlich;w
+832;Weihmann;Fabian;15.07.1953;Gesetzlich;m
+833;Maier;Yu-Jin;26.09.1951;Gesetzlich;w
+834;Roos;Daniel Aaron;23.05.1946;Gesetzlich;m
+835;Doll;Marissa;08.06.1951;Sonstige;w
+836;Akgül;Adriana;14.02.1952;Gesetzlich;w
+837;Binz;Sabine;14.01.1947;Gesetzlich;w
+838;Limberg;Timo;23.07.1943;Gesetzlich;m
+839;Geßler;David;01.11.1943;Gesetzlich;m
+840;Wahl;Oliver Kurosh;06.02.1944;Privat;m
+841;Yossi Tcheugoue;Malou;24.10.1946;Gesetzlich;w
+842;Sellahn;Christian;04.05.1947;Gesetzlich;m
+843;Fornefett;Iris;29.07.1947;Gesetzlich;w
+844;Ohland;Cosima;22.12.1947;Privat;w
+845;Jeck;Arianna;13.04.1951;Gesetzlich;w
+846;Stümpfl;Leonard;11.02.1948;Gesetzlich;m
+847;Köhnlein;Anushka;16.06.1945;Gesetzlich;w
+848;Kuch;Tobias;02.06.1946;Gesetzlich;m
+849;Kausch;Alexandra;12.04.1947;Gesetzlich;w
+850;Baraddan;Ayoub;15.11.1947;Gesetzlich;m
+851;Henderson;Fabio;04.11.1950;Gesetzlich;m
+852;Korte;Joris;15.10.1948;Gesetzlich;m
+853;Petrak;Alia;27.12.1948;Gesetzlich;w
+854;Schachner;Patrick;24.11.1949;Gesetzlich;m
+855;Dunajski;Julia;23.07.1950;Gesetzlich;w
+856;Weinelt;Juliane;09.02.1951;Gesetzlich;w
+857;Gandolfo;Nadine;25.05.1951;Gesetzlich;w
+858;Jusufovic;Luisa;31.10.1947;Privat;w
+859;Averbeck;Mayuri;15.04.1951;Gesetzlich;w
+860;Colin;Sascha;03.08.1952;Privat;m
+861;Nafti;Jann Richard;11.05.1951;Gesetzlich;m
+862;Hecht;Björn;06.07.1949;Gesetzlich;m
+863;Krüger;Ana Katherine;25.12.1944;Gesetzlich;w
+864;Frank;Jule;29.10.1942;Gesetzlich;w
+865;Reisser;Simon;15.12.1946;Gesetzlich;m
+866;Sterba;Sara;10.09.1950;Gesetzlich;w
+867;Leppert;Julia;24.07.1951;Gesetzlich;w
+868;Birger;Eve Angeline;06.12.1951;Gesetzlich;w
+869;Brecht;Emilia;01.09.1946;Gesetzlich;w
+870;Dew;Diana;15.12.1946;Gesetzlich;w
+871;Strack;Yuliia;01.01.1949;Privat;w
+872;Hundeshagen;Sara;06.04.1949;Privat;w
+873;Kacmaz;Lara;08.07.1950;Gesetzlich;w
+874;Schöpper;Geon Woo;13.08.1950;Sonstige;m
+875;Yurdakul;Raquel;20.06.1947;Gesetzlich;w
+876;Ivanov;Christopher;22.10.1947;Privat;m
+877;Porada;Sinaly;23.05.1943;Gesetzlich;m
+878;Gutjahr;Esther;25.05.1947;Gesetzlich;w
+879;Butt;Adeeb;08.11.1947;Privat;m
+880;Kadin;Lisa;01.07.1948;Privat;w
+881;Strubel;Mathis;07.02.1952;Gesetzlich;m
+882;van Weyck;Leonie;25.05.1952;Gesetzlich;w
+883;Köhler;Stefanie;21.12.1952;Gesetzlich;w
+884;Le;Lisa;29.04.1953;Gesetzlich;w
+885;Karabag;Jonathan Janardan;24.01.1954;Gesetzlich;m
+886;Ade;Rober;15.06.1954;Gesetzlich;m
+887;Eckle;Alex Francklin;28.05.1950;Gesetzlich;m
+888;Schmidt;Bennet;12.07.1946;Privat;m
+889;Knüppel;Maryam;14.04.1947;Gesetzlich;w
+890;Nguyen;Franka;12.10.1949;Gesetzlich;w
+891;Klaus;Tobias;29.12.1945;Gesetzlich;m
+892;Kindermann;Selin;09.01.1946;Gesetzlich;w
+893;Albayrak;Yara Malina;08.11.1946;Privat;w
+894;Beschorner;Zeryaab Saqib;09.12.1946;Gesetzlich;m
+895;Reichenbach;Dieu Donne Geoffroy;16.05.1948;Privat;m
+896;Nemati;Anja;10.04.1949;Gesetzlich;w
+897;Albayrak;Dilan Deniz;31.05.1949;Gesetzlich;w
+898;Weikert;Mohammad;30.11.1949;Sonstige;m
+899;Hage;Thi Thuy Quynh;15.05.1950;Gesetzlich;w
+900;Merle;Silvia;04.11.1945;Gesetzlich;w
+901;Scheidler Aguilar;German;09.01.1946;Gesetzlich;m
+902;Taibi;Nima;03.06.1945;Privat;m
+903;Schiemer;Malou;23.07.1945;Gesetzlich;w
+904;Eifert;Celine;18.09.1945;Gesetzlich;w
+905;Reichenbach;Max;17.10.1947;Sonstige;m
+906;Bielicki;Nick-Maximilian;10.05.1948;Gesetzlich;m
+907;Vijayakaran;Thi Thuy Trang;30.10.1949;Privat;w
+908;Mucha;Jens;11.04.1950;Gesetzlich;m
+909;Schütze;Anna;15.07.1950;Gesetzlich;w
+910;Yildiz;Jordan Leona;11.11.1944;Privat;w
+911;Haumann;Maria;16.09.1945;Gesetzlich;w
+912;Weihmann;Judith;21.08.1948;Gesetzlich;w
+913;Azdufal;Fatih;07.03.1947;Privat;m
+914;Warzecha;Sarah;29.03.1945;Privat;w
+915;Yasin;Daniya;29.01.1944;Gesetzlich;w
+916;Klinger;Ada Parvez;12.02.1942;Gesetzlich;w
+917;Deinert;Lucas;12.01.1943;Privat;m
+918;Krumm;Maximilian;30.06.1948;Gesetzlich;m
+919;Herbertz;Dmytrii;17.03.1949;Gesetzlich;m
+920;Krömmelbein;Freddy Steeve WendZoodo;31.08.1943;Gesetzlich;m
+921;Nussbicker;Quynh;05.12.1945;Privat;m
+922;Bäuerlein;Paraskevi;22.08.1950;Gesetzlich;w
+923;Stoldt;Charleen;08.12.1950;Gesetzlich;w
+924;Ruff;Nada;27.04.1949;Gesetzlich;w
+925;Truong;Joana;24.12.1945;Privat;w
+926;Lippke;Sascha;15.09.1946;Gesetzlich;m
+927;Karabekmez;Wissem;04.04.1947;Gesetzlich;m
+928;Schuchmann;Armel Brunel;08.09.1947;Gesetzlich;m
+929;Redie;Emilia;19.04.1952;Privat;w
+930;König;Kevin;21.11.1957;Gesetzlich;m
+931;Reimers;Minh Hoang;18.05.1952;Privat;m
+932;Guedich;Mohamed;31.10.1952;Privat;m
+933;Cavaleri;Yosephine;05.08.1947;Gesetzlich;w
+934;Raab;Elisa;27.06.1949;Gesetzlich;w
+935;Tekin;Christofanu Dwayne;02.04.1946;Gesetzlich;m
+936;Niestroj;Zoë;04.11.1947;Privat;w
+937;Frankenbach;Lea;07.05.1945;Sonstige;w
+938;Winoto;Dina;07.10.1948;Privat;w
+939;Babin;Phuong;09.07.1944;Gesetzlich;w
+940;Luderer;Marouane;09.11.1941;Gesetzlich;m
+941;Baron;Resul;18.12.1942;Privat;m
+942;Wiedemann;Annemarie;21.01.1947;Gesetzlich;w
+943;Lang;Chiara-Maria;16.10.1946;Gesetzlich;w
+944;Le;Ngoc Lan;17.11.1948;Gesetzlich;w
+945;Thißen;Tatjana;13.10.1946;Gesetzlich;w
+946;Storch;Tristan Hartmut;29.05.1948;Gesetzlich;m
+947;Dalus;Thi Thanh Dung;05.11.1945;Gesetzlich;w
+948;Roth;Nils;21.02.1946;Gesetzlich;m
+949;Thißen;Iris;08.05.1946;Gesetzlich;w
+950;Meier;Anne;29.06.1946;Gesetzlich;w
+951;Wuth;Gina;03.08.1946;Gesetzlich;w
+952;Mbekwe Nana;Sophia;08.09.1946;Sonstige;w
+953;Thielke;Kajetan;03.12.1949;Privat;m
+954;Bayoumi;Martyna;27.03.1950;Privat;w
+955;Aust;Alina;18.09.1946;Gesetzlich;w
+956;Weber;Marcus;22.06.1947;Gesetzlich;m
+957;Rahe;Felix Matthias;08.04.1948;Gesetzlich;m
+958;Stöckel;Jennifer;24.11.1949;Privat;w
+959;Vu;Bader;13.08.1947;Gesetzlich;m
+960;Koch;Kamil;13.11.1946;Gesetzlich;m
+961;Baier;Samira;26.11.1943;Gesetzlich;w
+962;Djilo Djopnang;Andre;28.10.1944;Gesetzlich;m
+963;Purgahn;Huu Thien;31.03.1948;Gesetzlich;m
+964;Müller;Carina;23.12.1943;Gesetzlich;w
+965;Schmidl;Jacqueline;18.02.1944;Gesetzlich;w
+966;Widera;Jasmin;13.05.1945;Gesetzlich;w
+967;Soumah;Usman;25.04.1946;Privat;m
+968;Pollack;Aleksa;05.09.1947;Privat;m
+969;Geyer;Lucas;02.12.1947;Gesetzlich;m
+970;Keck;Mark;05.09.1945;Privat;m
+971;Bugdoll;Omar Ibrahim;07.01.1947;Gesetzlich;m
+972;Hagens;Haruka;05.03.1947;Privat;w
+973;Nguyen;Kossi Henri Fabrice;09.11.1947;Gesetzlich;m
+974;Zwicker;Silvia;05.11.1948;Gesetzlich;w
+975;Haese;Yasmine;09.11.1945;Gesetzlich;w
+976;Wuth;Mirjam;02.03.1947;Sonstige;w
+977;Edelmann;Jasmin;18.01.1948;Gesetzlich;w
+978;Koch;Sabrina;30.11.1949;Gesetzlich;w
+979;März;Julia;03.10.1944;Gesetzlich;w
+980;Akdeniz;Thi ngoc Huyen;30.12.1944;Gesetzlich;w
+981;Baltes;Isabel;26.04.1943;Gesetzlich;w
+982;Kröger;Laura;24.02.1944;Gesetzlich;w
+983;Weissmann;Alexander;09.03.1946;Privat;m
+984;Schmith;Huong;24.02.1947;Gesetzlich;w
+985;Haberland;Denis;17.01.1944;Gesetzlich;m
+986;von Trümbach;Nils;24.09.1946;Privat;m
+987;Schmidt;Isabell Alexandra;05.02.1947;Gesetzlich;w
+988;Stöckbauer;Kübra;14.06.1947;Gesetzlich;w
+989;Daumüller;Denis;24.09.1948;Gesetzlich;m
+990;Hartono;Lena;28.06.1949;Gesetzlich;w
+991;Kühl;Brandon;18.08.1950;Gesetzlich;m
+992;Lewis;Kersten;13.12.1950;Gesetzlich;m
+993;Dall;Angela;28.08.1946;Privat;w
+994;Allen;Jasmin;30.08.1946;Gesetzlich;w
+995;Stoliar;Marit;25.08.1949;Gesetzlich;w
+996;Sellahn;Isabel;08.09.1949;Gesetzlich;w
+997;Lindemann;Loredana-Lavinia;08.11.1944;Gesetzlich;w
+998;Merz;Haram;11.04.1942;Gesetzlich;w
+999;Hotz;Priya;21.01.1946;Gesetzlich;w
+1000;Wilhelm;Joseph;07.01.1949;Privat;m
+1001;Kumiega;David;10.12.1949;Gesetzlich;m
+1002;Puth;Jonas;18.12.1947;Gesetzlich;m
+1003;Kemtsop;Tuana;18.12.1947;Gesetzlich;w
+1004;Gholami;Mohamed Yassine;22.04.1948;Privat;m
+1005;Schonne Dondelinger;Gregor;04.12.1949;Gesetzlich;m
+1006;König;Philipp;04.10.1944;Gesetzlich;m
+1007;Campinar;Richard;29.12.1942;Gesetzlich;m
+1008;Foglia;Maximilian;08.12.1943;Gesetzlich;m
+1009;Stimmler;Fiona;07.05.1945;Gesetzlich;w
+1010;Dahmen;Kimberly Justine;23.09.1948;Gesetzlich;w
+1011;Blöcher;Jérôme;18.05.1943;Gesetzlich;m
+1012;Storch;Janaina;16.10.1942;Gesetzlich;w
+1013;Schäfer;Alexandra;28.11.1947;Gesetzlich;w
+1014;Vasconcelos Afonso;Alex;28.03.1948;Gesetzlich;m
+1015;Scheve;Alina;20.06.1948;Gesetzlich;w
+1016;Kraus;Chiara;05.04.1949;Gesetzlich;w
+1017;Krauss;Rebecca Anja Linda;12.10.1947;Privat;w
+1018;Pokladnik;Patrick;10.12.1951;Gesetzlich;m
+1019;Breit;Christina;06.02.1952;Gesetzlich;w
+1020;Volkov;Pascal;19.03.1952;Gesetzlich;m
+1021;Ben Abda;Jasmin;18.07.1947;Gesetzlich;w
+1022;Funk;Jonas;28.04.1948;Gesetzlich;m
+1023;Serwe;Naomi;07.10.1945;Privat;w
+1024;März;Lisa;19.08.1946;Gesetzlich;w
+1025;Kühne;Amelie;18.05.1950;Gesetzlich;w
+1026;Meier;Nikhil;03.07.1950;Gesetzlich;m
+1027;Le;Christopher;03.06.1951;Gesetzlich;m
+1028;Hotz;Dominik;20.04.1948;Gesetzlich;m
+1029;Tokgöz;Dominique Pierre;08.01.1950;Gesetzlich;m
+1030;Maibach;Marius;26.10.1946;Privat;m
+1031;Kistner;Jonas;14.02.1947;Gesetzlich;m
+1032;Dotter;Jonathan;03.02.1951;Gesetzlich;m
+1033;Meyer;Emma;19.12.1950;Gesetzlich;w
+1034;Reimer;Julius Constantin;05.10.1951;Gesetzlich;m
+1035;Kimmina;Elina;23.04.1950;Gesetzlich;w
+1036;Feldbusch;Emilia;25.12.1946;Gesetzlich;w
+1037;Lo Bello;Laura;11.04.1949;Privat;w
+1038;Konle;Nihal;27.09.1945;Gesetzlich;w
+1039;Duda;Gayane;14.11.1945;Gesetzlich;w
+1040;Tarabrin;Konrad;30.05.1946;Gesetzlich;m
+1041;Schwinn;Lena;01.01.1947;Privat;w
+1042;Hosseini;Joelle Chantal;12.10.1948;Gesetzlich;w
+1043;Lontsi Limoteu;Muhammed Selim;17.03.1949;Sonstige;m
+1044;Kieweg;Wonjun;20.10.1950;Gesetzlich;m
+1045;Pazmino Urquizo;Myriam;04.11.1950;Gesetzlich;w
+1046;Atanasov;Gözde;06.09.1949;Gesetzlich;w
+1047;Babanic-Klein;Mustafa;30.11.1945;Gesetzlich;m
+1048;Debus;Clara;13.01.1946;Gesetzlich;w
+1049;Demirez;Alexander;23.09.1946;Privat;m
+1050;Tchakam Tchekouani;Peter Musa;14.01.1950;Gesetzlich;m
+1051;Zarenko;Paloma;12.06.1950;Privat;w
+1052;Miller;Yannick;18.08.1951;Gesetzlich;m
+1053;Achtzehnter;Rober;18.09.1951;Privat;m
+1054;Schneider;Gayane;13.08.1949;Gesetzlich;w
+1055;Heine;Marius;03.12.1946;Privat;m
+1056;Klossek;Muhammet Eslem;17.06.1948;Privat;m
+1057;Speckels;Saskia;09.02.1949;Privat;w
+1058;Knupfer;Jasmin;05.06.1947;Gesetzlich;w
+1059;Rosteck;Janina;31.05.1948;Gesetzlich;w
+1060;Kronfeld;Thi Nhat Le;18.09.1942;Gesetzlich;w
+1061;Stoldt;Nicole;13.02.1946;Privat;w
+1062;Kraus;Mina;24.11.1941;Gesetzlich;w
+1063;Pachmann;Saime;19.04.1942;Gesetzlich;w
+1064;Winterfeld;Johanna;23.06.1942;Gesetzlich;w
+1065;Yalaza;Laura Theresa;08.03.1946;Gesetzlich;w
+1066;Scheraz;Franziska;23.10.1948;Gesetzlich;w
+1067;Korkmaz;Marlene;10.10.1949;Gesetzlich;w
+1068;Djilo Djopnang;Diandra;06.03.1951;Gesetzlich;w
+1069;König;Luisa Maria;26.03.1950;Privat;w
+1070;Tröger;Jordan Leona;22.11.1946;Gesetzlich;w
+1071;Krumm;Lennard;19.04.1947;Gesetzlich;m
+1072;Helm;Fabian;25.04.1949;Gesetzlich;m
+1073;Pachmann;Fabian;12.02.1950;Privat;m
+1074;Schimanko;Tessa-Mae Victoria;18.06.1950;Gesetzlich;w
+1075;Ganev;Alina;03.10.1947;Privat;w
+1076;Köhnlein;Samaa;17.06.1945;Gesetzlich;w
+1077;Lippke;Jessica;07.05.1946;Gesetzlich;w
+1078;Haidacher;Michael;28.11.1946;Gesetzlich;m
+1079;Kreß;Laurenz;14.03.1945;Gesetzlich;m
+1080;Kieweg;Isabell;03.11.1945;Privat;w
+1081;Nichols;Christopher;11.04.1950;Gesetzlich;m
+1082;Bahcecioglu;Anila;18.07.1949;Gesetzlich;w
+1083;Nikolic;Daniela;14.04.1948;Gesetzlich;w
+1084;Schmidt;Jens;25.05.1944;Gesetzlich;m
+1085;Schäfer;Maher;03.05.1941;Sonstige;m
+1086;Luderer;Frederik;01.07.1942;Privat;m
+1087;Belz;Firat;01.09.1942;Gesetzlich;m
+1088;al-Madani;Lina;10.04.1944;Gesetzlich;w
+1089;Özdinc;Lennart;02.07.1944;Gesetzlich;m
+1090;Löhr;Nika;19.09.1944;Gesetzlich;w
+1091;Cimpoes;Thomas;18.08.1947;Privat;m
+1092;Walther;Floyd;04.01.1948;Gesetzlich;m
+1093;Kimmina;Judith;22.09.1944;Gesetzlich;w
+1094;Altebäumer;Vy;22.01.1947;Gesetzlich;w
+1095;Wedel;Jane-Kim;25.04.1947;Gesetzlich;w
+1096;Strauss;Luisa Maria;02.09.1944;Gesetzlich;w
+1097;Noubom Woboyi;Gül;14.10.1946;Privat;w
+1098;Wieser;Jana;09.12.1944;Privat;w
+1099;Maier;André;11.03.1945;Sonstige;m
+1100;Bayraktutan;Arghavan;01.06.1945;Gesetzlich;w
+1101;Stehle;Nouha;27.01.1946;Gesetzlich;w
+1102;Bach;Eva Margret;27.10.1942;Gesetzlich;w
+1103;Lenz;Ben;09.09.1945;Privat;m
+1104;Dünnwald;Esra;03.05.1947;Gesetzlich;w
+1105;Brüderle;Maximilian;02.08.1946;Gesetzlich;m
+1106;Wonogo;Chiara Anna;06.09.1946;Gesetzlich;w
+1107;Mau;Ronja;16.07.1950;Privat;w
+1108;Weller;Franziska;22.01.1948;Gesetzlich;w
+1109;Glaubitz;Leoni;20.02.1948;Gesetzlich;w
+1110;Helm;Kambiz;06.10.1948;Gesetzlich;m
+1111;Belz;Stefan;02.12.1948;Gesetzlich;m
+1112;Petroff;Kerem;22.08.1949;Gesetzlich;m
+1113;Mucha;Antonio;01.04.1950;Gesetzlich;m
+1114;Reinhardt;Lucas;24.10.1949;Gesetzlich;m
+1115;Brell;Isidora Belen;13.08.1950;Privat;w
+1116;Rüter;Louis Felipe;06.07.1946;Privat;m
+1117;Schwarz Terés;Sara;09.09.1942;Gesetzlich;w
+1118;Andrae;Kim Hoang;04.03.1941;Gesetzlich;w
+1119;Luu;Tim;28.04.1941;Gesetzlich;m
+1120;Pracht;Valerie;10.12.1945;Gesetzlich;w
+1121;Gruber;Wilfrid Romuald;30.03.1946;Gesetzlich;m
+1122;Hoch;Victoria;23.01.1947;Sonstige;w
+1123;Pham;Lyly;10.09.1949;Privat;w
+1124;Jäger;Nikolaos;13.11.1949;Privat;m
+1125;Brose;Jordi Andreu;27.03.1950;Gesetzlich;m
+1126;Ho;Wilhelm;18.03.1951;Sonstige;m
+1127;Przybyla;Karsten;22.11.1951;Privat;m
+1128;Tchakam Tchekouani;George;20.06.1947;Gesetzlich;m
+1129;Foster;Jane-Kim;21.07.1947;Gesetzlich;w
+1130;Seegmüller;Tara;11.07.1948;Gesetzlich;w
+1131;Elouardi;Sandra;23.06.1944;Gesetzlich;w
+1132;Becker;Kevin;31.01.1945;Sonstige;m
+1133;Mohamed Abdallahi;Sebastian;11.06.1945;Gesetzlich;m
+1134;Tran;Rami;06.03.1947;Privat;m
+1135;Obel;Suelnur;15.05.1952;Gesetzlich;w
+1136;Boschert;Pablo Gonzalo;04.10.1949;Gesetzlich;m
+1137;Yossi Tcheugoue;Jan;20.12.1949;Sonstige;m
+1138;Herms;Ann-Kathrin;13.06.1950;Gesetzlich;w
+1139;Kerbaj;Svenja;22.04.1951;Privat;w
+1140;Bryan;Simon;07.06.1953;Gesetzlich;m
+1141;Kostur;Mariem;31.03.1950;Gesetzlich;w
+1142;Müller;Lena;16.05.1945;Gesetzlich;w
+1143;Stein;Arianna;14.05.1948;Sonstige;w
+1144;Eckart;Daniel;09.07.1950;Gesetzlich;m
+1145;Lettow;Kersten;26.03.1946;Gesetzlich;m
+1146;Müller;Amelie;18.03.1943;Privat;w
+1147;Güz;Lea;26.07.1943;Gesetzlich;w
+1148;Matuschyk;Fiona;14.12.1943;Gesetzlich;w
+1149;Kadoglou;Tabea;23.06.1944;Gesetzlich;w
+1150;Schäfer;Dimitria Atanasova;24.10.1944;Gesetzlich;w
+1151;Henke;Jose Miguel;19.04.1945;Gesetzlich;m
+1152;Pau;Elfrida Anindya Shabirah;02.06.1944;Privat;w
+1153;Hecht;Arghavan;23.04.1946;Gesetzlich;w
+1154;Reinfelder;Valerie;18.01.1947;Gesetzlich;w
+1155;Sillekens;Fabian;13.10.1950;Gesetzlich;m
+1156;Karche;Moise Junior;14.03.1951;Gesetzlich;m
+1157;Böhland;Ksenia;10.12.1946;Privat;w
+1158;Stöcker;Darya;17.02.1941;Gesetzlich;w
+1159;Dörsch;Fransiska Damara;26.03.1944;Privat;w
+1160;Weber;Erik;06.06.1948;Gesetzlich;m
+1161;Aleid;Andreas;28.12.1948;Gesetzlich;m
+1162;Kimmina;Tom Niklas;17.04.1949;Gesetzlich;m
+1163;Schäfer;Alfian Ikhwan;01.07.1949;Gesetzlich;m
+1164;Meyer;Niels;02.09.1951;Gesetzlich;m
+1165;Zaria;Anila;14.03.1946;Gesetzlich;w
+1166;Mikheyev;Linnea;18.01.1945;Privat;w
+1167;Scheppat;Niklas;26.03.1943;Gesetzlich;m
+1168;Krafft;Svenja Sophia;12.03.1946;Privat;w
+1169;Schimanko;Sami;08.09.1951;Gesetzlich;m
+1170;Flasche;Tom;24.01.1950;Gesetzlich;m
+1171;Kirchen;Ergin;27.07.1950;Gesetzlich;m
+1172;Rosyid;Daniela;24.12.1948;Gesetzlich;w
+1173;Hensel;Dilara;21.05.1946;Gesetzlich;w
+1174;Makolli;Kathrin;20.02.1947;Privat;w
+1175;Kayadan;Emely;31.08.1948;Gesetzlich;w
+1176;Boudouhi;Paulina;10.02.1945;Gesetzlich;w
+1177;Eirund;Pascalis;28.02.1946;Privat;m
+1178;Heuser;Minh Hoang;04.08.1951;Gesetzlich;m
+1179;Dünnwald;Valentin;23.05.1952;Gesetzlich;m
+1180;Felger;Nadine;09.10.1953;Gesetzlich;w
+1181;Hage;Sara;15.07.1954;Gesetzlich;w
+1182;Wahl;Björn;02.05.1949;Privat;m
+1183;Leonhardt;Savarna;21.11.1949;Gesetzlich;w
+1184;Domitrovic;Pascal;05.09.1953;Gesetzlich;m
+1185;Kirchhoff;Mariella Dorothee;27.03.1949;Gesetzlich;w
+1186;Kleist;Julia;07.07.1944;Privat;w
+1187;Brunswicker;Thanh Hang;06.05.1945;Gesetzlich;w
+1188;Klecker;Emre;24.06.1945;Privat;m
+1189;Wuth;Mohammed;03.04.1947;Privat;m
+1190;Adrian;Mirjam;07.03.1948;Gesetzlich;w
+1191;Kenan;Ibrahim;03.08.1948;Gesetzlich;m
+1192;Nikolic;Jennifer;12.02.1949;Privat;w
+1193;Kemmer;Marcel Frank;02.04.1949;Gesetzlich;m
+1194;Daumlechner;Vasudha Alok;29.11.1944;Gesetzlich;w
+1195;Maini;Robert;21.01.1948;Privat;m
+1196;Hein;Johannes;23.01.1947;Gesetzlich;m
+1197;Müller;Annemarie;25.08.1947;Gesetzlich;w
+1198;Sauerwein;Baran;06.12.1948;Gesetzlich;m
+1199;Trasselli;Carina;01.05.1949;Gesetzlich;w
+1200;Coban;Clara;08.11.1944;Privat;w
+1201;Sanchez-Serrano;Fabienne;04.05.1945;Gesetzlich;w
+1202;Taner;Nina;07.12.1945;Gesetzlich;w
+1203;Sauerwein;Leon;19.10.1946;Gesetzlich;m
+1204;Abdelaal;Bianca;28.07.1947;Gesetzlich;w
+1205;Sonnabend;Lucia;23.03.1947;Gesetzlich;w
+1206;Becker;Carolin;14.11.1948;Sonstige;w
+1207;Janssen;Dilek;27.12.1947;Gesetzlich;w
+1208;Hinke;Johannes;26.07.1944;Gesetzlich;m
+1209;Ahmad;Matias Sebastian;09.06.1948;Gesetzlich;m
+1210;Wittchen;Ali Murat;15.10.1948;Gesetzlich;m
+1211;Post;Alia;06.05.1949;Privat;w
+1212;Abdurrahman;Lennart;02.03.1950;Gesetzlich;m
+1213;Salim;Zoi;18.07.1946;Gesetzlich;w
+1214;Fahlenbock;Nina;19.03.1947;Gesetzlich;w
+1215;Sterba;Daniela;08.07.1947;Gesetzlich;w
+1216;Müller;Robert;19.12.1945;Gesetzlich;m
+1217;Taadou;Anastasiia;16.01.1948;Privat;w
+1218;Pütz;Anna Kai;31.05.1948;Gesetzlich;w
+1219;Hendlich;Jean-Ric;08.04.1949;Gesetzlich;m
+1220;Porada;Gibrael;02.09.1950;Gesetzlich;m
+1221;Henge;Valeriya;09.02.1951;Gesetzlich;w
+1222;Chammaa;Yuliia;20.03.1948;Gesetzlich;w
+1223;Pauly;Mohamed;06.07.1948;Gesetzlich;m
+1224;Keßler;Adriana;04.12.1947;Gesetzlich;w
+1225;Brückenkamp-Miranda;Sherly;24.07.1944;Privat;w
+1226;van den Boogert;Jana;10.05.1947;Gesetzlich;w
+1227;Kohl;Mohammed Ali;15.08.1945;Gesetzlich;m
+1228;Altaha;Laura;16.02.1942;Gesetzlich;w
+1229;Reisser;Daniel;10.09.1942;Gesetzlich;m
+1230;Killing;Arjang;16.04.1945;Gesetzlich;m
+1231;Vu Nguyen Quang;Jan-Eric;31.07.1949;Gesetzlich;m
+1232;Dohmen;Gustav;04.10.1949;Gesetzlich;m
+1233;Stockinger;Marco;18.02.1954;Gesetzlich;m
+1234;Sahbaz;Thanh Hang;20.12.1954;Gesetzlich;w
+1235;Drath;Sylvia;09.03.1955;Gesetzlich;w
+1236;Simmonds;Nawapon;17.04.1955;Gesetzlich;m
+1237;Nastos;Ann-Kathrin;04.11.1956;Gesetzlich;w
+1238;Filenius;Sadie;26.09.1954;Privat;w
+1239;Küthe;Melanie;18.03.1950;Sonstige;w
+1240;Adrian;Lucas;20.10.1946;Gesetzlich;m
+1241;Fanelsa;Wilhelm;01.05.1951;Gesetzlich;m
+1242;Petersen;Tim;19.12.1946;Gesetzlich;m
+1243;Wosinski;Dwiresti Puspita;21.04.1949;Gesetzlich;w
+1244;Helm;Da-In;11.05.1949;Gesetzlich;w
+1245;Heeg;Gisane;26.08.1945;Gesetzlich;w
+1246;Djoumbissie Wansi;Anna Katharina;28.08.1945;Gesetzlich;w
+1247;Doumbouya;Jeanne Karelle;27.01.1946;Gesetzlich;w
+1248;Frías Reyes;Jennifer;02.06.1944;Gesetzlich;w
+1249;Kreuzer;Sidney;06.01.1945;Privat;m
+1250;Spöhr;Sameer Abdulatif Abdullah;13.07.1947;Gesetzlich;m
+1251;Raum;Jonathan;01.11.1944;Gesetzlich;m
+1252;Boutter;Kathrin;10.07.1945;Sonstige;w
+1253;Nguyen;Till;04.08.1947;Gesetzlich;m
+1254;Firdausi;Sophie;20.07.1951;Sonstige;w
+1255;Momo Kamdem;Milovan;18.09.1951;Gesetzlich;m
+1256;Bartelt;Mieke;24.09.1951;Gesetzlich;w
+1257;Gunkel;Timo;29.06.1952;Gesetzlich;m
+1258;Küchler;Thi Thu Trang;04.05.1946;Gesetzlich;w
+1259;Graeber;Jonathan;06.12.1946;Gesetzlich;m
+1260;Dew;Marvin Oliver;20.08.1948;Gesetzlich;m
+1261;Köhl;Daniel;03.05.1949;Privat;m
+1262;Wijnaendts van Resandt;Arijan;23.04.1950;Gesetzlich;m
+1263;Aguiar Rafael;Gisane;21.09.1947;Gesetzlich;w
+1264;Hilkert;Leopold;25.12.1947;Gesetzlich;m
+1265;Nohzat;Romy;23.08.1948;Gesetzlich;w
+1266;Ernst;Peter;16.04.1949;Gesetzlich;m
+1267;Kleffmann;David;01.04.1945;Gesetzlich;m
+1268;Helm;Abdulrahman;24.06.1944;Gesetzlich;m
+1269;Eissa;Nathalie Ann;29.05.1945;Gesetzlich;w
+1270;Schäfer;Jasmin;12.02.1942;Gesetzlich;w
+1271;Krieger;Johanna-Marie;18.05.1942;Privat;w
+1272;Wischerhoff;Philipp;24.12.1944;Gesetzlich;m
+1273;Essert;Luca;07.03.1945;Privat;m
+1274;Güldogan;Helmand;08.03.1947;Gesetzlich;w
+1275;Wartanian;Damla;11.11.1947;Gesetzlich;w
+1276;Hahn;Ena-Sophie;10.07.1952;Gesetzlich;w
+1277;Schwerber;Alicia;07.10.1952;Gesetzlich;w
+1278;Montag;Jana;29.10.1947;Gesetzlich;w
+1279;Schmidt;Sabrina;22.12.1945;Gesetzlich;w
+1280;Miguletz;Daria;05.09.1948;Gesetzlich;w
+1281;Söns;Veronika;21.04.1946;Privat;w
+1282;Geßler;Nicole;21.01.1945;Gesetzlich;w
+1283;Knüppel;Stella Julia;12.10.1946;Privat;w
+1284;Müller;Michael;06.12.1945;Gesetzlich;m
+1285;Römer;Nicolas;23.11.1946;Privat;m
+1286;Kenne Tafoyem;Vanessa;14.08.1949;Gesetzlich;w
+1287;Frankenberger;Dominik;06.10.1949;Gesetzlich;m
+1288;Heißner;Dilan Deniz;27.12.1945;Gesetzlich;w
+1289;Eckle;Joel;09.01.1949;Gesetzlich;m
+1290;Hentschel;Corinna Erika;13.09.1949;Gesetzlich;w
+1291;Regenbrecht;Ipek;01.09.1944;Privat;w
+1292;Sahmkow;Chantal;06.05.1945;Gesetzlich;w
+1293;Vonderschmidt;Sean William;28.12.1945;Gesetzlich;m
+1294;Lohr;Sonja;21.08.1942;Gesetzlich;w
+1295;Weßner;Iara;10.01.1943;Gesetzlich;w
+1296;Hotz;Rositsa;23.06.1947;Gesetzlich;w
+1297;Sohil;Lucas;29.02.1948;Gesetzlich;m
+1298;Saha Poga;Johannes;13.12.1950;Gesetzlich;m
+1299;Weimer;Karolin Marie;14.12.1946;Gesetzlich;w
+1300;Diesterweg;Derman Rukiye;08.05.1945;Gesetzlich;w
+1301;Reinhardt;Thomas;26.02.1946;Privat;m
+1302;Rosteck;Jens;17.06.1943;Privat;m
+1303;Gebhardt;Sara;10.01.1944;Gesetzlich;w
+1304;Lucien;Vadim;13.08.1947;Gesetzlich;m
+1305;Helpach;Maximilian;12.04.1949;Privat;m
+1306;Andrae;Teresa;25.05.1949;Gesetzlich;w
+1307;Boncoraglio;Anne;19.08.1944;Sonstige;w
+1308;Bonadonna;Ginza;29.11.1945;Gesetzlich;w
+1309;Belkadi;Esra;04.04.1946;Gesetzlich;w
+1310;Eickelberg;Merve;14.12.1942;Privat;w
+1311;Karimpur;Bhola Prasad;02.10.1943;Gesetzlich;m
+1312;Rühle;Agnes;20.10.1945;Gesetzlich;w
+1313;Andorfer;Kristina;27.05.1949;Gesetzlich;w
+1314;Altuntas;Jessica;16.01.1950;Gesetzlich;w
+1315;Kraus;Jasmin;19.01.1950;Gesetzlich;w
+1316;Reckeweg;Pola Jadwiga;09.09.1950;Privat;w
+1317;Weller;Bjarne;29.04.1951;Gesetzlich;m
+1318;Thiele;Romain Arnold;29.08.1948;Gesetzlich;m
+1319;Stanczyk;Thi ngoc Huyen;25.03.1949;Gesetzlich;w
+1320;Özen;Lina;25.07.1952;Gesetzlich;w
+1321;Abel;Lilith;13.11.1952;Gesetzlich;w
+1322;Tetzlaff;Cedric;30.11.1952;Gesetzlich;m
+1323;Stockum;Martyna;15.03.1953;Gesetzlich;w
+1324;Schurse;Lukas Paul;04.04.1950;Privat;m
+1325;Marquardt;Thies Jakob;22.01.1945;Gesetzlich;m
+1326;Frankenberger;Marlene;04.11.1945;Sonstige;w
+1327;Simorangkir;Bao Khang;27.08.1946;Privat;m
+1328;Elsässer;Daniel;02.01.1947;Gesetzlich;m
+1329;Klotzbach;Jonilda;12.10.1947;Gesetzlich;w
+1330;Antonio;Marco;21.06.1948;Gesetzlich;m
+1331;Reimer;Noah;14.11.1943;Privat;m
+1332;Sampson;Ruben;05.12.1946;Gesetzlich;m
+1333;Rehse;Hoi Ching;01.11.1943;Gesetzlich;w
+1334;Tan;Aiham;25.06.1944;Gesetzlich;m
+1335;Pollack;Tatjana;07.09.1946;Gesetzlich;w
+1336;Doubravsky;Janine;08.04.1947;Gesetzlich;w
+1337;Arisandi;Tuana;21.04.1951;Privat;w
+1338;Seeh;Heinrich Adam;30.01.1952;Gesetzlich;m
+1339;Christoph;Nina;27.06.1947;Gesetzlich;w
+1340;Taheri;Fabienne;24.09.1943;Gesetzlich;w
+1341;Klar;Nils;13.10.1943;Gesetzlich;m
+1342;Engel;Benjamin;27.05.1944;Privat;m
+1343;Hage;Özcan;25.02.1945;Gesetzlich;m
+1344;Fornefett;Gianna;23.10.1945;Privat;w
+1345;Hanke;Marvin;09.10.1944;Gesetzlich;m
+1346;Kuate Waffo;Marlene;12.05.1945;Gesetzlich;w
+1347;Schneider;Joanna-Laura;28.05.1945;Gesetzlich;w
+1348;Schütze;Kevin;27.12.1945;Gesetzlich;m
+1349;Böhmer;Sara;09.03.1946;Gesetzlich;w
+1350;Iskender;Thi Thu Trang;26.02.1946;Gesetzlich;w
+1351;Rothe;Isabel;10.06.1947;Gesetzlich;w
+1352;Beyer;Lisa Orlanda;16.08.1947;Gesetzlich;w
+1353;Gompf;Florian;21.05.1944;Gesetzlich;m
+1354;Astaschov;Stefanie;09.08.1944;Gesetzlich;w
+1355;Steiner;Judith;27.09.1947;Gesetzlich;w
+1356;Luong;Sabrina;24.09.1951;Gesetzlich;w
+1357;Zimmermann;Maximilian;21.02.1956;Gesetzlich;m
+1358;Fica;Alois;17.05.1954;Gesetzlich;m
+1359;Ljubicic;Nini;13.04.1951;Gesetzlich;w
+1360;Brestak;Bernd;13.03.1950;Gesetzlich;m
+1361;Tchagga Tiabou;Shasia;09.12.1946;Gesetzlich;w
+1362;Neumann;Anastasia;16.12.1949;Privat;w
+1363;Schmitt;Eline Magdalena;20.07.1950;Gesetzlich;w
+1364;Kroos;Alexandra;12.01.1946;Gesetzlich;w
+1365;Schang;Isabelle;23.08.1947;Privat;w
+1366;Gudima;Samir;18.09.1945;Gesetzlich;m
+1367;Sonnabend;Aki;29.04.1946;Gesetzlich;m
+1368;Krüger;Noelle;27.06.1946;Gesetzlich;w
+1369;Ollhoff;Marie;20.08.1941;Privat;w
+1370;Kalinin;Marvin Lars;12.12.1941;Privat;m
+1371;Brunswicker;Mert;02.10.1944;Gesetzlich;m
+1372;Wolz;Charlotte;05.10.1944;Gesetzlich;w
+1373;Kühn;Ilknur;30.03.1940;Gesetzlich;w
+1374;Herweh;Noah;22.09.1943;Gesetzlich;m
+1375;Conredel;Ludwig;05.04.1944;Gesetzlich;m
+1376;Raab;Kevin;14.11.1945;Gesetzlich;m
+1377;Roth;Marco;15.05.1946;Gesetzlich;m
+1378;Clemens;Anias;29.12.1947;Gesetzlich;m
+1379;Raschka;Mariana;06.12.1948;Gesetzlich;w
+1380;Fischer;Tobias;10.05.1946;Gesetzlich;m
+1381;Abu Elnaser;Lukas;08.08.1946;Gesetzlich;m
+1382;Kherrabi;Samira;20.01.1947;Privat;w
+1383;Weckerle;Hoa;26.01.1944;Gesetzlich;w
+1384;Haas;Oliver;27.12.1946;Gesetzlich;m
+1385;Rupp;Sara;18.02.1947;Gesetzlich;w
+1386;Trautmann;Prakash;02.10.1941;Gesetzlich;m
+1387;Eyou;Carlo;27.07.1942;Gesetzlich;m
+1388;Mr. Sansare;Harun;10.11.1943;Gesetzlich;m
+1389;Leo;Emily;16.01.1947;Gesetzlich;w
+1390;Stephan;Kujtesa;31.03.1948;Gesetzlich;w
+1391;Romankiewicz;Lennart;06.07.1949;Privat;m
+1392;Müller;Diandra;13.08.1949;Gesetzlich;w
+1393;Treffkorn;Nicolai Pierre;06.04.1948;Gesetzlich;m
+1394;Weissmann;Eden;18.06.1946;Privat;w
+1395;Daube;Franca;16.02.1947;Gesetzlich;w
+1396;Grasmeyer;Amos;13.03.1947;Gesetzlich;m
+1397;Jäger;Julia;24.08.1947;Gesetzlich;w
+1398;Beck;Memoona;11.02.1950;Gesetzlich;w
+1399;Taadou;Simon;23.09.1950;Gesetzlich;m
+1400;Ammoura;Anna-Isabell;05.04.1945;Gesetzlich;w
+1401;Klossek;Noa Rachel;03.11.1948;Gesetzlich;w
+1402;Ndoumbe Nseke;Elina;09.06.1952;Gesetzlich;w
+1403;Lupus;Nils;27.12.1952;Gesetzlich;m
+1404;Pikisch;Elina;25.10.1955;Gesetzlich;w
+1405;Thon;Calvin;28.05.1956;Gesetzlich;m
+1406;Helmerich;Sarah Catalina;26.01.1951;Gesetzlich;w
+1407;Dongmo Kenfack;Stefania;24.06.1952;Gesetzlich;w
+1408;Meyer;Isabel;16.06.1949;Gesetzlich;w
+1409;Stehle;Tom Niklas;20.01.1950;Privat;m
+1410;Schäfer;Alia;27.04.1950;Gesetzlich;w
+1411;Hörpel;Raquel;05.04.1951;Gesetzlich;w
+1412;Fernandez Mantilla;Celia;30.09.1946;Sonstige;w
+1413;Schmiedlin;Harun;10.09.1947;Gesetzlich;m
+1414;Scognamiglio;Janine;07.01.1942;Gesetzlich;w
+1415;Koenen;Tobias;01.02.1940;Gesetzlich;m
+1416;Stockbauer;Amir;28.06.1941;Gesetzlich;m
+1417;Tsoungui Donfack;Jennifer;15.09.1941;Gesetzlich;w
+1418;Weigelt;Jessica;26.04.1945;Sonstige;w
+1419;Sedhai;Arianna;14.04.1946;Privat;w
+1420;Hasenkopf;Sunna;02.09.1950;Gesetzlich;w
+1421;Dalus;Jülide;16.08.1951;Privat;w
+1422;Vu;Charlene;16.06.1947;Sonstige;w
+1423;Sarbyeyev;Christina Bao Ngan;24.07.1948;Privat;w
+1424;Debus;Safak;28.02.1943;Gesetzlich;m
+1425;Schäfer;Lucas;21.07.1943;Gesetzlich;m
+1426;Odisho;Antonia Isabel;31.08.1947;Gesetzlich;w
+1427;Aguiar Rafael;Jakob;07.07.1942;Gesetzlich;m
+1428;Shidane;Lisa Orlanda;14.05.1943;Gesetzlich;w
+1429;Tran;Jana;14.11.1947;Privat;w
+1430;van Weyck;Lukas;09.07.1948;Gesetzlich;m
+1431;Ahier;Julia;03.10.1948;Gesetzlich;w
+1432;Klink;Johannes;13.11.1946;Gesetzlich;m
+1433;Küchler;Simon Andreas;15.12.1946;Gesetzlich;m
+1434;Bierwald;Karolin Marie;24.08.1947;Gesetzlich;w
+1435;Brechtel;Yannis;21.12.1947;Gesetzlich;m
+1436;Tatar;Lukas;25.10.1948;Gesetzlich;m
+1437;Mezano Bougang;Saeideh;29.06.1949;Gesetzlich;w
+1438;Milinkovic;Quynh Han;22.10.1949;Gesetzlich;w
+1439;Spagl;Patricia Christin;23.12.1949;Gesetzlich;w
+1440;Ulmann;Victor;21.11.1944;Gesetzlich;m
+1441;Marx;Gunda;06.06.1949;Gesetzlich;w
+1442;Mr. Sansare;Alina;02.02.1950;Privat;w
+1443;Turgut-Wenzel;Julius;25.09.1945;Gesetzlich;m
+1444;Frankenbach;Jana;18.12.1948;Privat;w
+1445;Markert;Klaudia Magdalena;23.12.1948;Privat;w
+1446;Wiesener;Irina;01.08.1949;Gesetzlich;w
+1447;Buzcu;Ronja;30.07.1950;Gesetzlich;w
+1448;Karche;Marie-Lou Fiola;17.03.1951;Privat;w
+1449;Mühlbach;Thi Thanh Dung;05.06.1951;Gesetzlich;w
+1450;Fieseler;Semhar;23.11.1944;Gesetzlich;w
+1451;Atanasov;Merve;14.06.1943;Gesetzlich;w
+1452;Leppert;Annemarie;05.03.1944;Privat;w
+1453;Bopp;Kateryna;05.10.1945;Gesetzlich;w
+1454;Jurado;Isabell;17.10.1946;Privat;w
+1455;Petry;Nesrin;12.10.1951;Gesetzlich;w
+1456;Albrecht;Lea;05.05.1953;Gesetzlich;w
+1457;Kuzu;Pelin;11.03.1949;Gesetzlich;w
+1458;Brandstätter;Brandon Junior;12.12.1945;Sonstige;m
+1459;Torres Suarez;Fabio;22.04.1946;Gesetzlich;m
+1460;Köhler;Ali;21.04.1947;Gesetzlich;m
+1461;Funk;Ivan;31.05.1951;Gesetzlich;m
+1462;Resch;Islam;26.11.1952;Gesetzlich;m
+1463;Krause;Vinit Vijay;19.04.1953;Privat;m
+1464;Kimmina;Bastian;11.01.1954;Gesetzlich;m
+1465;Reißig;Jannika Angela;07.10.1953;Gesetzlich;w
+1466;Singh;Sam;02.02.1954;Gesetzlich;m
+1467;Ouabo Mbougeko;Diandra;14.02.1954;Privat;w
+1468;Obel;Lea;24.07.1951;Gesetzlich;w
+1469;Best;Walaa;16.03.1952;Gesetzlich;w
+1470;Moldaner;Niklas;16.08.1955;Sonstige;m
+1471;Gundermann;Fariba;04.03.1950;Gesetzlich;w
+1472;Hentschel;Rieke;15.01.1953;Gesetzlich;w
+1473;Kucera;Marie;08.03.1951;Gesetzlich;w
+1474;Brückenkamp-Miranda;Nicole;13.07.1949;Gesetzlich;w
+1475;Tekin;Sofia Margarita;23.11.1949;Gesetzlich;w
+1476;Hofmann;Johannes;20.07.1953;Gesetzlich;m
+1477;Regula;Saher;27.05.1951;Gesetzlich;m
+1478;Erath;Fabienne;05.01.1948;Privat;w
+1479;Ströher;Patrick;01.04.1948;Gesetzlich;m
+1480;Rettberg;Franziska;13.09.1948;Gesetzlich;w
+1481;Henke;Lennard;13.08.1949;Gesetzlich;m
+1482;Razafiarison;Luisa;25.09.1947;Gesetzlich;w
+1483;Berghofer;Jennifer;13.02.1945;Privat;w
+1484;Cornelissen;Bennet;19.02.1947;Gesetzlich;m
+1485;Trinh;Andre;15.02.1948;Gesetzlich;m
+1486;Fuks;Oliver;17.08.1952;Gesetzlich;m
+1487;Amao;Franka;01.11.1954;Gesetzlich;w
+1488;Sommer;Dominik;26.03.1951;Gesetzlich;m
+1489;Bigdeli;Semhar;20.06.1951;Gesetzlich;w
+1490;Sherpa;Mahdi;25.09.1949;Gesetzlich;m
+1491;Styvrin;Jeamson;14.05.1950;Privat;m
+1492;Frankenberger;Kim Joanna;30.12.1950;Gesetzlich;w
+1493;Cardenas Munoz;Hanna Rebecka;28.12.1954;Privat;w
+1494;Engelke;Mariana;09.10.1950;Gesetzlich;w
+1495;Dolle;Thuy Mai;02.02.1951;Gesetzlich;w
+1496;Barthel;Marius;20.09.1953;Gesetzlich;m
+1497;Dietz;Helena;20.06.1951;Gesetzlich;w
+1498;Zeeb;Fatih;17.11.1952;Gesetzlich;m
+1499;Schönewald;Patrick;18.02.1953;Gesetzlich;m
+1500;Köhler;Diogo;08.02.1948;Gesetzlich;m
+1501;Ghebremicael;Liv;18.03.1945;Gesetzlich;w
+1502;Dürrwang;Sarah;15.04.1949;Gesetzlich;w
+1503;Kammi Ketcha;Emma;24.11.1949;Gesetzlich;w
+1504;Affanou;Dominik;27.09.1944;Gesetzlich;m
+1505;Ries;Dilara;03.11.1947;Gesetzlich;w
+1506;Grove;Vanessa;23.04.1950;Gesetzlich;w
+1507;Grimm;Tobias;22.05.1948;Gesetzlich;m
+1508;Berg;Fabio;10.05.1946;Gesetzlich;m
+1509;van der Beets;Gideon;18.05.1946;Gesetzlich;m
+1510;Nafti;Markus;18.05.1945;Gesetzlich;m
+1511;Khalifeh;Beate Marianna;09.04.1950;Gesetzlich;w
+1512;Achtzehnter;Cheryl Josephine;16.10.1950;Gesetzlich;w
+1513;Ueno;Nikol;29.08.1946;Gesetzlich;w
+1514;Paul;Michael Florian Ernst;04.05.1947;Gesetzlich;m
+1515;Atris;Frederik;24.07.1947;Gesetzlich;m
+1516;Imhof;Carol-Anne Hope Antje;07.10.1947;Gesetzlich;w
+1517;Martin;Vu Lam;05.07.1948;Privat;m
+1518;Shidane;Janaina;11.03.1949;Gesetzlich;w
+1519;Ivic-Matijas;Moritz;22.05.1942;Gesetzlich;m
+1520;Neidhart;Isabell;03.11.1942;Gesetzlich;w
+1521;Hanses;Florian;16.01.1943;Privat;m
+1522;Fanta;Florian;25.09.1945;Gesetzlich;m
+1523;Mabtoul;Erik;16.10.1950;Gesetzlich;m
+1524;Stoffel;Melis;15.05.1951;Gesetzlich;w
+1525;Schaffner;Felicia;19.02.1953;Gesetzlich;w
+1526;Zeller;Kian;24.04.1953;Sonstige;m
+1527;Walther;Patrick;03.03.1954;Gesetzlich;m
+1528;Böhmer;Ahmad;04.10.1948;Gesetzlich;m
+1529;Auberg;Elfrida Anindya Shabirah;06.06.1950;Gesetzlich;w
+1530;Dürrwang;Semih;14.08.1949;Gesetzlich;m
+1531;Hagens;Boas;14.12.1947;Gesetzlich;m
+1532;Friedrich;Maximilian;20.07.1948;Privat;m
+1533;Palaz;Ahlem;15.03.1949;Privat;w
+1534;Brilmayer;Batuhan;08.06.1949;Gesetzlich;m
+1535;Schuchmann;Mirjam;18.12.1948;Gesetzlich;w
+1536;Becker;Seline Diana Akoth;26.08.1949;Gesetzlich;w
+1537;Izykiewicz;Manh Hung;25.09.1953;Gesetzlich;m
+1538;Schirrmann;Alan;06.06.1948;Gesetzlich;m
+1539;Meyer;Rosalie;09.06.1952;Gesetzlich;w

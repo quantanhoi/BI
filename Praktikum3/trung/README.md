@@ -11,7 +11,7 @@
 
 
 ## Known Problem with first edition data vault model
-![current pdm](pdm_ICD_datavault.png)
+![current pdm](docs/pdm_ICD_datavault.png)
 
 With this current physical data model, the problem with this model is that there is no unified patient key, and data is still separated by origin.
 
@@ -37,3 +37,8 @@ Even if this is the same person, they remain separated in this data vault schema
 3. Adresse oder Postanschrift
 Currently we have none of these here, What is the chance of 2 People having the same name and same birthday?
 
+## Knime Workflow
+### Hub and Sat
+Currently for the hub and satelitte we are using this workflow for ICD Gruppe, Codes and Kapitel
+To keep this simple, the table codes will only save the code and code description, other value with unknown description will not be saved
+![hub and sat workflow](docs/hubsat_workflow.png)

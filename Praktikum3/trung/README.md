@@ -41,4 +41,16 @@ Currently we have none of these here, What is the chance of 2 People having the 
 ### Hub and Sat
 Currently for the hub and satelitte we are using this workflow for ICD Gruppe, Codes and Kapitel
 To keep this simple, the table codes will only save the code and code description, other value with unknown description will not be saved
+
 ![hub and sat workflow](docs/hubsat_workflow.png)
+
+
+### Link
+
+After inserting Hub and Sat, the last thing we need to insert is Link tables, which is as followed:
+
+![link workflow](docs/link_kap_gruppe.png)
+
+
+### Patient
+Now that we are done with ICD data, the next thing would be data from patients from different Praxis and Klinik

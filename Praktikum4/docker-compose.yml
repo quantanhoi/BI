@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: datavault_postgres
+    environment:
+      POSTGRES_USER: datavault_user
+      POSTGRES_PASSWORD: datavault_pass
+      POSTGRES_DB: datavault_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      # Load Data Vault schema from Praktikum3 first
+      - ../Praktikum3/trung/crebas.sql:/docker-entrypoint-initdb.d/01-datavault-schema.sql
+      # Then load Data Mart schema
+      - ./crebas.sql:/docker-entrypoint-initdb.d/02-datamart-schema.sql
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U datavault_user -d datavault_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+    driver: local

@@ -54,3 +54,18 @@ After inserting Hub and Sat, the last thing we need to insert is Link tables, wh
 
 ### Patient
 Now that we are done with ICD data, the next thing would be data from patients from different Praxis and Klinik
+
+We could reuse the same component for filtering row, db connect and reader and joiner for writing into database
+
+To create a loop for each type of data from different Praxis/Klinik, we use List Files/Folder and Table Row to Variable Loop Start + Loop End Nodes to create a loop
+
+Basically it will loop through all Stammdaten files (from all Praxis/Klinik) in the folder and execute the ETL pipeline
+
+![hub and sat Patient Workflow](docs/knime_patient_hub_sat.png)
+
+
+The workflow is basically the same across hub patient, hub untersuchung, sat messwert, etc... 
+
+The differences are the python scripts and what Row Filter nodes filter out
+
+If you want to see the full data pipeline in knime, you can load the MLOPS.knwf into KNIME

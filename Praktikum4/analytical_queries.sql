@@ -17,37 +17,25 @@ WHERE dp.IsCurrent = TRUE
 GROUP BY dp.AgeGroup, dp.Geschlecht
 ORDER BY 
     CASE dp.AgeGroup 
-        WHEN '0-17' THEN 1
-        WHEN '18-30' THEN 2
-        WHEN '31-45' THEN 3
-        WHEN '46-60' THEN 4
-        WHEN '61-75' THEN 5
-        WHEN '76+' THEN 6
-        ELSE 7
+        WHEN '0-4' THEN 1 WHEN '5-9' THEN 2 WHEN '10-14' THEN 3 WHEN '15-19' THEN 4
+        WHEN '20-24' THEN 5 WHEN '25-29' THEN 6 WHEN '30-34' THEN 7 WHEN '35-39' THEN 8
+        WHEN '40-44' THEN 9 WHEN '45-49' THEN 10 WHEN '50-54' THEN 11 WHEN '55-59' THEN 12
+        WHEN '60-64' THEN 13 WHEN '65-69' THEN 14 WHEN '70-74' THEN 15 WHEN '75-79' THEN 16
+        WHEN '80-84' THEN 17 WHEN '85-89' THEN 18 WHEN '90+' THEN 19
+        ELSE 20
     END,
     dp.Geschlecht;
 
--- 1.2 Patients with Master Records (unified across practices)
-SELECT 
-    COUNT(DISTINCT dp.PatientKey) AS TotalPatients,
-    SUM(CASE WHEN dp.IsMasterRecord THEN 1 ELSE 0 END) AS WithMasterRecord,
-    SUM(CASE WHEN NOT dp.IsMasterRecord THEN 1 ELSE 0 END) AS WithoutMasterRecord,
-    ROUND(SUM(CASE WHEN dp.IsMasterRecord THEN 1 ELSE 0 END)::NUMERIC / 
-          COUNT(DISTINCT dp.PatientKey) * 100, 2) AS MasterRecordPercentage
-FROM Dim_Patient dp
-WHERE dp.IsCurrent = TRUE;
-
--- 1.3 Patients by Practice/Clinic
+-- 1.2 Patients by Practice/Clinic
 SELECT 
     pr.PraxisName,
     pr.PraxisType,
     pr.City,
-    pr.Region,
     COUNT(DISTINCT dp.PatientKey) AS PatientCount
 FROM Dim_Patient dp
 JOIN Dim_Praxis pr ON dp.PatientSource = pr.PraxisSource
 WHERE dp.IsCurrent = TRUE
-GROUP BY pr.PraxisName, pr.PraxisType, pr.City, pr.Region
+GROUP BY pr.PraxisName, pr.PraxisType, pr.City
 ORDER BY PatientCount DESC;
 
 -- =============================================================================
@@ -59,8 +47,7 @@ SELECT
     dd.Year,
     dd.MonthName,
     COUNT(fu.UntersuchungFactKey) AS ExaminationCount,
-    COUNT(DISTINCT fu.PatientKey) AS UniquePatients,
-    ROUND(AVG(fu.DiagnoseCount), 2) AS AvgDiagnosesPerExam
+    COUNT(DISTINCT fu.PatientKey) AS UniquePatients
 FROM Fact_Untersuchung fu
 JOIN Dim_Date dd ON fu.DateKey = dd.DateKey
 GROUP BY dd.Year, dd.MonthNumber, dd.MonthName
@@ -96,8 +83,7 @@ LIMIT 10;
 SELECT 
     dd.DayName,
     dd.DayOfWeek,
-    COUNT(fu.UntersuchungFactKey) AS ExaminationCount,
-    ROUND(AVG(fu.DiagnoseCount), 2) AS AvgDiagnoses
+    COUNT(fu.UntersuchungFactKey) AS ExaminationCount
 FROM Fact_Untersuchung fu
 JOIN Dim_Date dd ON fu.DateKey = dd.DateKey
 GROUP BY dd.DayName, dd.DayOfWeek
@@ -209,13 +195,12 @@ WHERE fu.HasMeasurements = TRUE AND dp.IsCurrent = TRUE
 GROUP BY dp.AgeGroup
 ORDER BY 
     CASE dp.AgeGroup 
-        WHEN '0-17' THEN 1
-        WHEN '18-30' THEN 2
-        WHEN '31-45' THEN 3
-        WHEN '46-60' THEN 4
-        WHEN '61-75' THEN 5
-        WHEN '76+' THEN 6
-        ELSE 7
+        WHEN '0-4' THEN 1 WHEN '5-9' THEN 2 WHEN '10-14' THEN 3 WHEN '15-19' THEN 4
+        WHEN '20-24' THEN 5 WHEN '25-29' THEN 6 WHEN '30-34' THEN 7 WHEN '35-39' THEN 8
+        WHEN '40-44' THEN 9 WHEN '45-49' THEN 10 WHEN '50-54' THEN 11 WHEN '55-59' THEN 12
+        WHEN '60-64' THEN 13 WHEN '65-69' THEN 14 WHEN '70-74' THEN 15 WHEN '75-79' THEN 16
+        WHEN '80-84' THEN 17 WHEN '85-89' THEN 18 WHEN '90+' THEN 19
+        ELSE 20
     END;
 
 -- =============================================================================
@@ -253,18 +238,18 @@ ORDER BY AnamneseRecords DESC;
 -- 6. REGIONAL ANALYSIS
 -- =============================================================================
 
--- 6.1 Patient and Examination Distribution by Region
+-- 6.1 Patient and Examination Distribution by City
 SELECT 
-    pr.Region,
+    pr.City,
+    pr.PraxisType,
     COUNT(DISTINCT dp.PatientKey) AS PatientCount,
     COUNT(fu.UntersuchungFactKey) AS ExaminationCount,
-    COUNT(DISTINCT fu.ICDKey) AS UniqueDiagnoses,
-    ROUND(AVG(fu.DiagnoseCount), 2) AS AvgDiagnosesPerExam
+    COUNT(DISTINCT fu.ICDKey) AS UniqueDiagnoses
 FROM Dim_Patient dp
 LEFT JOIN Fact_Untersuchung fu ON dp.PatientKey = fu.PatientKey
 JOIN Dim_Praxis pr ON dp.PatientSource = pr.PraxisSource
 WHERE dp.IsCurrent = TRUE
-GROUP BY pr.Region
+GROUP BY pr.City, pr.PraxisType
 ORDER BY PatientCount DESC;
 
 -- 6.2 Comparison: University Clinics vs Practices
@@ -272,7 +257,6 @@ SELECT
     pr.PraxisType,
     COUNT(DISTINCT dp.PatientKey) AS PatientCount,
     COUNT(fu.UntersuchungFactKey) AS ExaminationCount,
-    ROUND(AVG(fu.DiagnoseCount), 2) AS AvgDiagnoses,
     SUM(CASE WHEN fu.HasMeasurements THEN 1 ELSE 0 END) AS WithMeasurements,
     ROUND(SUM(CASE WHEN fu.HasMeasurements THEN 1 ELSE 0 END)::NUMERIC / 
           NULLIF(COUNT(fu.UntersuchungFactKey), 0) * 100, 2) AS MeasurementRate

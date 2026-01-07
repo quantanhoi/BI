@@ -1,14 +1,4 @@
-# Data Vault — Quick Query Map
-
-| Question | How |
-|---|---|
-| List all diagnoses for patient X | Join Hub_Patient → Link_Patient_Untersuchung → Link_Untersuchung_Diagnose → Hub_ICD_Code |
-| How many examinations did patient X have? | Count distinct Hub_Untersuchung via Link_Patient_Untersuchung |
-| What were patient X's Visus measurements over time? | Join Hub_Patient → Link_Patient_Untersuchung → Hub_Untersuchung → Sat_Messwerte + Sat_Untersuchung (for date) |
-| Which diagnoses were made on examination Y? | Join Hub_Untersuchung → Link_Untersuchung_Diagnose → Hub_ICD_Code |
-| What's patient X's medical history (Anamnese)? | Join Hub_Patient → Link_Patient_Anamnese → Hub_ICD_Code |
-
-
+# Praktikum 3 - Gruppe 10
 
 ## Known Problem with first edition data vault model
 ![current pdm](docs/pdm_ICD_datavault.png)
@@ -69,3 +59,50 @@ The workflow is basically the same across hub patient, hub untersuchung, sat mes
 The differences are the python scripts and what Row Filter nodes filter out
 
 If you want to see the full data pipeline in knime, you can load the MLOPS.knwf into KNIME
+
+## Data Sources
+
+The project processes data from multiple sources:
+- **9 Praxis locations**: Coesfeld, Hamm, Neunkirchen, Pirmasens, St. Wendel, Telgte, Unna, Warendorf, Zweibrücken
+- **University Clinics**: Münster and Saarland
+- **ICD Data**: Codes, Gruppen (Groups), and Kapitel (Chapters)
+
+For each praxis/clinic, we have three types of files:
+- `stammdaten.csv` - Patient master data (Name, Geburtsdatum, etc.)
+- `anamnesen.csv` - Patient medical history
+- `messwerte.csv` - Measurement values (Visus, Tensio, etc.)
+
+## Database Schema Overview
+
+The Data Vault consists of:
+
+### Hubs (Business Keys)
+- `Hub_ICD_Kapitel` - ICD chapters
+- `Hub_ICD_Gruppe` - ICD groups
+- `Hub_ICD_Code` - Individual ICD diagnosis codes
+- `Hub_Patient` - Patient IDs (separated by source)
+- `Hub_Patient_Master` - Master patient records (unified)
+- `Hub_Untersuchung` - Examinations
+
+### Links (Relationships)
+- `Link_Kapitel_Gruppe` - Kapitel to Gruppe relationship
+- `Link_Gruppe_Code` - Gruppe to Code relationship
+- `Link_Patient_Master` - Patient to Master patient relationship
+- `Link_Patient_Anamnese` - Patient to diagnosis history
+- `Link_Patient_Untersuchung` - Patient to examination
+- `Link_Untersuchung_Diagnose` - Examination to diagnosis
+
+### Satellites (Descriptive Attributes)
+- `Sat_ICD_Kapitel` - Kapitel descriptions
+- `Sat_ICD_Gruppe` - Gruppe descriptions
+- `Sat_ICD_Code` - Code descriptions
+- `Sat_Patient_Stammdaten` - Patient details by source
+- `Sat_Patient_Master_Stammdaten` - Unified patient details
+- `Sat_Untersuchung` - Examination details (date, location)
+- `Sat_Messwerte` - Measurement values
+
+## Data Quality Notes
+
+- The ETL pipeline filters out rows with unknown or missing descriptions
+- Duplicate records are handled by checking existing HashKeys before insertion
+- Each record tracks `LoadDate` and `RecordSource` for lineage

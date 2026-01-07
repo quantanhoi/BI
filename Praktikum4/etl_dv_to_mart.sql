@@ -10,8 +10,7 @@
 
 INSERT INTO Dim_Date (
     DateKey, FullDate, DayOfWeek, DayName, DayOfMonth, DayOfYear,
-    WeekOfYear, MonthNumber, MonthName, Quarter, Year, IsWeekend,
-    FiscalYear, FiscalQuarter
+    WeekOfYear, MonthNumber, MonthName, Quarter, Year, IsWeekend
 )
 SELECT 
     TO_CHAR(datum, 'YYYYMMDD')::INT AS DateKey,
@@ -25,17 +24,7 @@ SELECT
     TO_CHAR(datum, 'Month') AS MonthName,
     EXTRACT(QUARTER FROM datum)::INT AS Quarter,
     EXTRACT(YEAR FROM datum)::INT AS Year,
-    CASE WHEN EXTRACT(DOW FROM datum) IN (0, 6) THEN TRUE ELSE FALSE END AS IsWeekend,
-    CASE WHEN EXTRACT(MONTH FROM datum) >= 7 
-         THEN EXTRACT(YEAR FROM datum)::INT + 1 
-         ELSE EXTRACT(YEAR FROM datum)::INT 
-    END AS FiscalYear,
-    CASE 
-        WHEN EXTRACT(MONTH FROM datum) IN (7,8,9) THEN 1
-        WHEN EXTRACT(MONTH FROM datum) IN (10,11,12) THEN 2
-        WHEN EXTRACT(MONTH FROM datum) IN (1,2,3) THEN 3
-        ELSE 4
-    END AS FiscalQuarter
+    CASE WHEN EXTRACT(DOW FROM datum) IN (0, 6) THEN TRUE ELSE FALSE END AS IsWeekend
 FROM (
     SELECT generate_series('2015-01-01'::DATE, '2030-12-31'::DATE, '1 day'::INTERVAL)::DATE AS datum
 ) dates
@@ -46,7 +35,7 @@ ON CONFLICT (DateKey) DO NOTHING;
 -- Extract unique practice/clinic sources from Data Vault
 -- =============================================================================
 
-INSERT INTO Dim_Praxis (PraxisSource, PraxisName, PraxisType, City, Region)
+INSERT INTO Dim_Praxis (PraxisSource, PraxisName, PraxisType, City)
 SELECT DISTINCT
     hp.PatientSource AS PraxisSource,
     -- Extract readable name from source
@@ -68,22 +57,7 @@ SELECT DISTINCT
         WHEN hp.PatientSource LIKE 'uniklinik_%' THEN 
             INITCAP(REPLACE(SUBSTRING(hp.PatientSource FROM 11), '_', ' '))
         ELSE NULL
-    END AS City,
-    -- Assign region based on city
-    CASE 
-        WHEN hp.PatientSource LIKE '%muenster%' OR 
-             hp.PatientSource LIKE '%coesfeld%' OR 
-             hp.PatientSource LIKE '%telgte%' OR 
-             hp.PatientSource LIKE '%warendorf%' OR 
-             hp.PatientSource LIKE '%hamm%' OR 
-             hp.PatientSource LIKE '%unna%' THEN 'Nordrhein-Westfalen'
-        WHEN hp.PatientSource LIKE '%saarland%' OR 
-             hp.PatientSource LIKE '%st_wendel%' OR 
-             hp.PatientSource LIKE '%neunkirchen%' THEN 'Saarland'
-        WHEN hp.PatientSource LIKE '%pirmasens%' OR 
-             hp.PatientSource LIKE '%zweibruecken%' THEN 'Rheinland-Pfalz'
-        ELSE 'Unbekannt'
-    END AS Region
+    END AS City
 FROM Hub_Patient hp
 ON CONFLICT (PraxisSource) DO NOTHING;
 
@@ -94,7 +68,7 @@ ON CONFLICT (PraxisSource) DO NOTHING;
 
 INSERT INTO Dim_ICD_Code (
     HK_ICD_Code, ICD_Code, Code_Titel, GruppeCode, GruppeTitel, 
-    Bis_Code, KapitelNr, KapitelTitel, EffectiveDate, IsCurrent
+    KapitelNr, KapitelTitel, EffectiveDate, IsCurrent
 )
 SELECT 
     hc.HK_ICD_Code,
@@ -102,7 +76,6 @@ SELECT
     sc.Code_Titel,
     hg.GruppeCode,
     sg.GruppeTitel,
-    sg.Bis_Code,
     hk.KapitelNr,
     sk.KapitelTitel,
     CURRENT_DATE AS EffectiveDate,
@@ -120,7 +93,7 @@ LEFT JOIN LATERAL (
 LEFT JOIN Link_Gruppe_Code lgc ON hc.HK_ICD_Code = lgc.HK_ICD_Code
 LEFT JOIN Hub_ICD_Gruppe hg ON lgc.HK_ICD_Gruppe = hg.HK_ICD_Gruppe
 LEFT JOIN LATERAL (
-    SELECT GruppeTitel, Bis_Code
+    SELECT GruppeTitel
     FROM Sat_ICD_Gruppe
     WHERE HK_ICD_Gruppe = hg.HK_ICD_Gruppe
     ORDER BY LoadDate DESC
@@ -144,32 +117,43 @@ ON CONFLICT DO NOTHING;
 -- =============================================================================
 
 INSERT INTO Dim_Patient (
-    HK_Patient, HK_Patient_Master, MasterPatientID, PatientID, PatientSource,
-    Nachname, Vorname, Geburtsdatum, Versicherung, Geschlecht, AgeGroup,
-    IsMasterRecord, EffectiveDate, IsCurrent
+    HK_Patient, PatientID, PatientSource,
+    Nachname, Vorname, Geburtsdatum, Versicherung, Geschlecht, AgeGroup, Age,
+    EffectiveDate, IsCurrent
 )
 SELECT 
     hp.HK_Patient,
-    lpm.HK_Patient_Master,
-    hpm.MasterPatientID,
     hp.PatientID,
     hp.PatientSource,
-    COALESCE(spms.Nachname, sps.Nachname) AS Nachname,
-    COALESCE(spms.Vorname, sps.Vorname) AS Vorname,
-    COALESCE(spms.Geburtsdatum, sps.Geburtsdatum) AS Geburtsdatum,
+    sps.Nachname,
+    sps.Vorname,
+    sps.Geburtsdatum,
     sps.Versicherung,
     sps.Geschlecht,
-    -- Calculate age group
+    -- Calculate age group in 5-year blocks
     CASE 
-        WHEN COALESCE(spms.Geburtsdatum, sps.Geburtsdatum) IS NULL THEN 'Unbekannt'
-        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, COALESCE(spms.Geburtsdatum, sps.Geburtsdatum))) < 18 THEN '0-17'
-        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, COALESCE(spms.Geburtsdatum, sps.Geburtsdatum))) < 31 THEN '18-30'
-        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, COALESCE(spms.Geburtsdatum, sps.Geburtsdatum))) < 46 THEN '31-45'
-        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, COALESCE(spms.Geburtsdatum, sps.Geburtsdatum))) < 61 THEN '46-60'
-        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, COALESCE(spms.Geburtsdatum, sps.Geburtsdatum))) < 76 THEN '61-75'
-        ELSE '76+'
+        WHEN sps.Geburtsdatum IS NULL THEN 'Unbekannt'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 5 THEN '0-4'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 10 THEN '5-9'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 15 THEN '10-14'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 20 THEN '15-19'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 25 THEN '20-24'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 30 THEN '25-29'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 35 THEN '30-34'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 40 THEN '35-39'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 45 THEN '40-44'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 50 THEN '45-49'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 55 THEN '50-54'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 60 THEN '55-59'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 65 THEN '60-64'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 70 THEN '65-69'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 75 THEN '70-74'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 80 THEN '75-79'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 85 THEN '80-84'
+        WHEN EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum)) < 90 THEN '85-89'
+        ELSE '90+'
     END AS AgeGroup,
-    CASE WHEN lpm.HK_Patient_Master IS NOT NULL THEN TRUE ELSE FALSE END AS IsMasterRecord,
+    EXTRACT(YEAR FROM AGE(CURRENT_DATE, sps.Geburtsdatum))::INT AS Age,
     CURRENT_DATE AS EffectiveDate,
     TRUE AS IsCurrent
 FROM Hub_Patient hp
@@ -181,17 +165,6 @@ LEFT JOIN LATERAL (
     ORDER BY LoadDate DESC
     LIMIT 1
 ) sps ON TRUE
--- Check for master patient link
-LEFT JOIN Link_Patient_Master lpm ON hp.HK_Patient = lpm.HK_Patient
-LEFT JOIN Hub_Patient_Master hpm ON lpm.HK_Patient_Master = hpm.HK_Patient_Master
--- Get master patient satellite data if exists
-LEFT JOIN LATERAL (
-    SELECT Nachname, Vorname, Geburtsdatum
-    FROM Sat_Patient_Master_Stammdaten
-    WHERE HK_Patient_Master = hpm.HK_Patient_Master
-    ORDER BY LoadDate DESC
-    LIMIT 1
-) spms ON hpm.HK_Patient_Master IS NOT NULL
 ON CONFLICT DO NOTHING;
 
 -- =============================================================================
@@ -201,8 +174,8 @@ ON CONFLICT DO NOTHING;
 
 INSERT INTO Fact_Untersuchung (
     HK_Untersuchung, PatientKey, ICDKey, DateKey, PraxisKey,
-    Untersuchungsart, Untersucher, Tensio, Refraktion, Visus,
-    HasMeasurements, DiagnoseCount
+    Untersuchungsdatum, Tensio, Refraktion, Visus,
+    IsFirstVisit, HasMeasurements
 )
 SELECT 
     hu.HK_Untersuchung,
@@ -210,14 +183,14 @@ SELECT
     dic.ICDKey,
     dd.DateKey,
     dpr.PraxisKey,
-    su.Untersuchungsart,
-    su.Untersucher,
+    su.Untersuchungsdatum,
     sm.Tensio,
     sm.Refraktion,
     sm.Visus,
+    -- Mark as first visit if this is the earliest examination for this patient
+    CASE WHEN su.Untersuchungsdatum = first_visit.FirstVisitDate THEN TRUE ELSE FALSE END AS IsFirstVisit,
     CASE WHEN sm.Tensio IS NOT NULL OR sm.Refraktion IS NOT NULL OR sm.Visus IS NOT NULL 
-         THEN TRUE ELSE FALSE END AS HasMeasurements,
-    diag_counts.DiagnoseCount
+         THEN TRUE ELSE FALSE END AS HasMeasurements
 FROM Hub_Untersuchung hu
 -- Link to Patient
 JOIN Link_Patient_Untersuchung lpu ON hu.HK_Untersuchung = lpu.HK_Untersuchung
@@ -225,7 +198,7 @@ JOIN Hub_Patient hp ON lpu.HK_Patient = hp.HK_Patient
 JOIN Dim_Patient dp ON hp.HK_Patient = dp.HK_Patient AND dp.IsCurrent = TRUE
 -- Get examination satellite data
 LEFT JOIN LATERAL (
-    SELECT Untersuchungsdatum, Untersuchungsart, Untersucher
+    SELECT Untersuchungsdatum
     FROM Sat_Untersuchung
     WHERE HK_Untersuchung = hu.HK_Untersuchung
     ORDER BY LoadDate DESC
@@ -239,6 +212,21 @@ LEFT JOIN LATERAL (
     ORDER BY LoadDate DESC
     LIMIT 1
 ) sm ON TRUE
+-- Calculate first visit date for each patient
+LEFT JOIN LATERAL (
+    SELECT MIN(su_inner.Untersuchungsdatum) AS FirstVisitDate
+    FROM Link_Patient_Untersuchung lpu_inner
+    JOIN Hub_Untersuchung hu_inner ON lpu_inner.HK_Untersuchung = hu_inner.HK_Untersuchung
+    JOIN LATERAL (
+        SELECT Untersuchungsdatum
+        FROM Sat_Untersuchung
+        WHERE HK_Untersuchung = hu_inner.HK_Untersuchung
+        ORDER BY LoadDate DESC
+        LIMIT 1
+    ) su_inner ON TRUE
+    WHERE lpu_inner.HK_Patient = hp.HK_Patient
+    AND su_inner.Untersuchungsdatum IS NOT NULL
+) first_visit ON TRUE
 -- Link to Date dimension
 LEFT JOIN Dim_Date dd ON TO_CHAR(su.Untersuchungsdatum, 'YYYYMMDD')::INT = dd.DateKey
 -- Link to Praxis dimension
@@ -252,12 +240,6 @@ LEFT JOIN LATERAL (
     LIMIT 1
 ) first_diag ON TRUE
 LEFT JOIN Dim_ICD_Code dic ON first_diag.HK_ICD_Code = dic.HK_ICD_Code AND dic.IsCurrent = TRUE
--- Count total diagnoses per examination
-LEFT JOIN LATERAL (
-    SELECT COUNT(*) AS DiagnoseCount
-    FROM Link_Untersuchung_Diagnose lud
-    WHERE lud.HK_Untersuchung = hu.HK_Untersuchung
-) diag_counts ON TRUE
 WHERE su.Untersuchungsdatum IS NOT NULL;
 
 -- =============================================================================

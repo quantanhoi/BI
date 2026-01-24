@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html data-bs-theme="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="None" name="description"/>
+<link href="img/favicon.ico" rel="shortcut icon"/>
+<title>Praktikum 3 - Gruppe 10</title>
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<link href="css/fontawesome.min.css" rel="stylesheet"/>
+<link href="css/brands.min.css" rel="stylesheet"/>
+<link href="css/solid.min.css" rel="stylesheet"/>
+<link href="css/v4-font-face.min.css" rel="stylesheet"/>
+<link href="css/base.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" id="hljs-light" rel="stylesheet"/>
+<link disabled="" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" id="hljs-dark" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+<link href="pdf/mysite.pdf" rel="alternate" title="PDF" type="application/pdf"/></head>
+<body class="homepage">
+<div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+<div class="container">
+<a class="navbar-brand" href=".">Praktikum 3 - Gruppe 10</a>
+<!-- Expanded navigation -->
+<div class="navbar-collapse collapse" id="navbar-collapse">
+<ul class="nav navbar-nav ms-md-auto">
+<li class="nav-item">
+<a class="nav-link" data-bs-target="#mkdocs_search_modal" data-bs-toggle="modal" href="#">
+<i class="fa fa-search"></i> Search
+                            </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+<div class="navbar-header">
+<button class="navbar-toggler collapsed" data-bs-target="#toc-collapse" data-bs-toggle="collapse" title="Table of Contents" type="button">
+<span class="fa fa-angle-down"></span>
+</button>
+</div>
+<div class="navbar-collapse collapse card bg-body-tertiary" id="toc-collapse">
+<ul class="nav flex-column">
+<li class="nav-item" data-bs-level="1"><a class="nav-link" href="#praktikum-3-gruppe-10">Praktikum 3 - Gruppe 10</a>
+<ul class="nav flex-column">
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#known-problem-with-first-edition-data-vault-model">Known Problem with first edition data vault model</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#knime-workflow">Knime Workflow</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#data-sources">Data Sources</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#database-schema-overview">Database Schema Overview</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+<li class="nav-item" data-bs-level="2"><a class="nav-link" href="#data-quality-notes">Data Quality Notes</a>
+<ul class="nav flex-column">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div></div>
+<div class="col-md-9" role="main">
+<h1 id="praktikum-3-gruppe-10">Praktikum 3 - Gruppe 10</h1>
+<h2 id="known-problem-with-first-edition-data-vault-model">Known Problem with first edition data vault model</h2>
+<p><img alt="current pdm" src="pdm_ICD_datavault.png"/></p>
+<p>With this current physical data model, the problem with this model is that there is no unified patient key, and data is still separated by origin.</p>
+<p>Die Daten sollen im Data Warehouse mit einem einheitlichen Patientenschlüssel zusammengelegt und nicht mehr nach Herkunft getrennt werden =&gt; Data should be merged with an unified patient key and no longer separated by origin</p>
+<p>Current schema: </p>
+<pre><code>CONSTRAINT UQ_Hub_Patient UNIQUE (PatientID, PatientSource)
+</code></pre>
+<p>This mean:
+- Patient "12345" from praxis_coesfeld =&gt; Hub entry 1
+- Patient "12345" from uniklinik_saarland =&gt; Hub entry 2</p>
+<p>Even if this is the same person, they remain separated in this data vault schema</p>
+<h3 id="proposed-solution">Proposed solution?</h3>
+<p><strong>Unified Patient</strong>: If the same person visit different kliniks, how do we know that it's the same person?
+- This is the fundamental problem, normally this would be easier if we have
+1. Versicherungssnummer
+2. Echte ID Nummer
+3. Adresse oder Postanschrift
+Currently we have none of these here, What is the chance of 2 People having the same name and same birthday?
+This is why we would still go for levenshtein algorithm, but in the end we didn't populate the table patient_master hub link sat because it's a bit complicated</p>
+<h2 id="knime-workflow">Knime Workflow</h2>
+<h3 id="hub-and-sat">Hub and Sat</h3>
+<p>Currently for the hub and satelitte we are using this workflow for ICD Gruppe, Codes and Kapitel
+To keep this simple, the table codes will only save the code and code description, other value with unknown description will not be saved</p>
+<p><img alt="hub and sat workflow" src="hubsat_workflow.png"/></p>
+<h3 id="link">Link</h3>
+<p>After inserting Hub and Sat, the last thing we need to insert is Link tables, which is as followed:</p>
+<p><img alt="link workflow" src="link_kap_gruppe.png"/></p>
+<h3 id="patient">Patient</h3>
+<p>Now that we are done with ICD data, the next thing would be data from patients from different Praxis and Klinik</p>
+<p>We could reuse the same component for filtering row, db connect and reader and joiner for writing into database</p>
+<p>To create a loop for each type of data from different Praxis/Klinik, we use List Files/Folder and Table Row to Variable Loop Start + Loop End Nodes to create a loop</p>
+<p>Basically it will loop through all Stammdaten files (from all Praxis/Klinik) in the folder and execute the ETL pipeline</p>
+<p><img alt="hub and sat Patient Workflow" src="knime_patient_hub_sat.png"/></p>
+<p>The workflow is basically the same across hub patient, hub untersuchung, sat messwert, etc... </p>
+<p>The differences are the python scripts and what Row Filter nodes filter out</p>
+<p>If you want to see the full data pipeline in knime, you can load the MLOPS.knwf into KNIME</p>
+<h2 id="data-sources">Data Sources</h2>
+<p>The project processes data from multiple sources:
+- <strong>9 Praxis locations</strong>: Coesfeld, Hamm, Neunkirchen, Pirmasens, St. Wendel, Telgte, Unna, Warendorf, Zweibrücken
+- <strong>University Clinics</strong>: Münster and Saarland
+- <strong>ICD Data</strong>: Codes, Gruppen (Groups), and Kapitel (Chapters)</p>
+<p>For each praxis/clinic, we have three types of files:
+- <code>stammdaten.csv</code> - Patient master data (Name, Geburtsdatum, etc.)
+- <code>anamnesen.csv</code> - Patient medical history
+- <code>messwerte.csv</code> - Measurement values (Visus, Tensio, etc.)</p>
+<h2 id="database-schema-overview">Database Schema Overview</h2>
+<p>The Data Vault consists of:</p>
+<h3 id="hubs-business-keys">Hubs (Business Keys)</h3>
+<ul>
+<li><code>Hub_ICD_Kapitel</code> - ICD chapters</li>
+<li><code>Hub_ICD_Gruppe</code> - ICD groups</li>
+<li><code>Hub_ICD_Code</code> - Individual ICD diagnosis codes</li>
+<li><code>Hub_Patient</code> - Patient IDs (separated by source)</li>
+<li><code>Hub_Patient_Master</code> - Master patient records (unified)</li>
+<li><code>Hub_Untersuchung</code> - Examinations</li>
+</ul>
+<h3 id="links-relationships">Links (Relationships)</h3>
+<ul>
+<li><code>Link_Kapitel_Gruppe</code> - Kapitel to Gruppe relationship</li>
+<li><code>Link_Gruppe_Code</code> - Gruppe to Code relationship</li>
+<li><code>Link_Patient_Master</code> - Patient to Master patient relationship</li>
+<li><code>Link_Patient_Anamnese</code> - Patient to diagnosis history</li>
+<li><code>Link_Patient_Untersuchung</code> - Patient to examination</li>
+<li><code>Link_Untersuchung_Diagnose</code> - Examination to diagnosis</li>
+</ul>
+<h3 id="satellites-descriptive-attributes">Satellites (Descriptive Attributes)</h3>
+<ul>
+<li><code>Sat_ICD_Kapitel</code> - Kapitel descriptions</li>
+<li><code>Sat_ICD_Gruppe</code> - Gruppe descriptions</li>
+<li><code>Sat_ICD_Code</code> - Code descriptions</li>
+<li><code>Sat_Patient_Stammdaten</code> - Patient details by source</li>
+<li><code>Sat_Patient_Master_Stammdaten</code> - Unified patient details</li>
+<li><code>Sat_Untersuchung</code> - Examination details (date, location)</li>
+<li><code>Sat_Messwerte</code> - Measurement values</li>
+</ul>
+<h2 id="data-quality-notes">Data Quality Notes</h2>
+<ul>
+<li>The ETL pipeline filters out rows with unknown or missing descriptions</li>
+<li>Duplicate records are handled by checking existing HashKeys before insertion</li>
+<li>Each record tracks <code>LoadDate</code> and <code>RecordSource</code> for lineage</li>
+</ul></div>
+</div>
+</div>
+<footer class="col-md-12">
+<hr/>
+<p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+<script src="js/base.js"></script>
+<script src="search/main.js"></script>
+<div aria-hidden="true" aria-labelledby="searchModalLabel" class="modal" id="mkdocs_search_modal" role="dialog" tabindex="-1">
+<div class="modal-dialog modal-lg">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="searchModalLabel">Search</h4>
+<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<p>From here you can search these documents. Enter your search terms below.</p>
+<form>
+<div class="form-group">
+<input class="form-control" id="mkdocs-search-query" placeholder="Search..." title="Type search term here" type="search"/>
+</div>
+</form>
+<div data-no-results-text="No results found" id="mkdocs-search-results"></div>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div><div aria-hidden="true" aria-labelledby="keyboardModalLabel" class="modal" id="mkdocs_keyboard_modal" role="dialog" tabindex="-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+<button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button"></button>
+</div>
+<div class="modal-body">
+<table class="table">
+<thead>
+<tr>
+<th style="width: 20%;">Keys</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="help shortcut"><kbd>?</kbd></td>
+<td>Open this help</td>
+</tr>
+<tr>
+<td class="next shortcut"><kbd>n</kbd></td>
+<td>Next page</td>
+</tr>
+<tr>
+<td class="prev shortcut"><kbd>p</kbd></td>
+<td>Previous page</td>
+</tr>
+<tr>
+<td class="search shortcut"><kbd>s</kbd></td>
+<td>Search</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="modal-footer">
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2026-01-08 10:17:17.872224+00:00
+-->

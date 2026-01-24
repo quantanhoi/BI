@@ -1,0 +1,6 @@
+site_name: Praktikum 3 - Gruppe 10
+plugins:
+  - search
+  - with-pdf:
+      output_path: pdf/mysite.pdf
+      cover_title: Praktikum 3 - Gruppe 10   
